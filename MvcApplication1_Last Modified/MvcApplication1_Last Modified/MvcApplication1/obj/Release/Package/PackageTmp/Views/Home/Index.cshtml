@@ -1,0 +1,164 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                To learn more about ASP.NET MVC visit
+                <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
+                The page features <mark>videos, tutorials, and samples</mark> to help you get the most from ASP.NET MVC.
+                If you have any questions about ASP.NET MVC visit
+                <a href="http://forums.asp.net/1146.aspx/1?MVC" title="ASP.NET MVC Forum">our forums</a>.
+            </p>
+        </div>
+    </section>
+}
+<h3>We suggest the following:</h3>
+<ol class="round">
+    <li class="one">
+        <h5>Getting Started</h5>
+        ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+        enables a clean separation of concerns and that gives you full control over markup
+        for enjoyable, agile development. ASP.NET MVC includes many features that enable
+        fast, TDD-friendly development for creating sophisticated applications that use
+        the latest web standards.
+        <a href="http://go.microsoft.com/fwlink/?LinkId=245151">Learn more…</a>
+    </li>
+
+    <li class="two">
+        <h5>Add NuGet packages and jump-start your coding</h5>
+        NuGet makes it easy to install and update free libraries and tools.
+        <a href="http://go.microsoft.com/fwlink/?LinkId=245153">Learn more…</a>
+    </li>
+
+    <li class="three">
+        <h5>Find Web Hosting</h5>
+        You can easily find a web hosting company that offers the right mix of features
+        and price for your applications.
+        <a href="http://go.microsoft.com/fwlink/?LinkId=245157">Learn more…</a>
+    </li>
+</ol>
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+
+    <link href="../css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+</head>
+<body>
+    <div class="container">
+        <form action="" class="form-horizontal">
+            <fieldset>
+                <legend>Test</legend>
+                <div class="control-group">
+
+
+                    <label class="control-label">DateTime Picking</label>
+                    <div class="controls input-append date form_datetime" data-
+                         date="1979-09-16T05:25:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1">
+                        <input size="16"
+                               type="text" value="" readonly>
+                        <span class="add-on"><i class="icon-remove"></i></span>
+
+
+                        <span class="add-on"><i class="icon-th"></i></span>
+                    </div>
+                    <input type="hidden"
+                           id="dtp_input1" value="" /><br />
+                </div>
+                <div class="control-group">
+                    <label class="control-label">Date Picking</label>
+                    <div class="controls input-append date form_date" data-date="" data-date-
+                         format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                        <input size="16" type="text"
+                               value="" readonly>
+                        <span class="add-on"><i class="icon-remove"></i></span>
+                        <span class="add-on"><i class="icon-th"></i></span>
+                    </div>
+                    <input type="hidden" id="dtp_input2"
+                           value="" /><br />
+                </div>
+                <div class="control-group">
+                    <label class="control-label">
+                        Time
+
+                        Picking
+                    </label>
+                    <div class="controls input-append date form_time" data-date="" data-date-format="hh:ii" data-link-
+                         field="dtp_input3" data-link-format="hh:ii">
+                        <input size="16" type="text" value="" readonly>
+
+
+                        <span class="add-on"><i class="icon-remove"></i></span>
+                        <span class="add-on">
+                            <i class="icon-th"></i>
+                        </span>
+                    </div>
+                    <input type="hidden" id="dtp_input3" value="" /><br />
+
+
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <script type="text/javascript" src="./jquery/jquery-1.8.3.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap-
+
+datetimepicker.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="../js/locales/bootstrap-datetimepicker.fr.js"
+            charset="UTF-8"></script>
+    <script type="text/javascript">
+    $('.form_datetime').datetimepicker({
+        //language:  'fr',
+
+
+weekStart: 1,
+        todayBtn:  1,
+		autoclose: 1,
+		todayHighlight: 1,
+		startView: 2,
+
+
+forceParse: 0,
+        showMeridian: 1
+    });
+	$('.form_date').datetimepicker({
+        language:  'fr',
+        weekStart: 1,
+
+
+todayBtn:  1,
+		autoclose: 1,
+		todayHighlight: 1,
+		startView: 2,
+		minView: 2,
+
+
+forceParse: 0
+    });
+	$('.form_time').datetimepicker({
+        language:  'fr',
+        weekStart: 1,
+        todayBtn:  1,
+
+
+autoclose: 1,
+		todayHighlight: 1,
+		startView: 1,
+		minView: 0,
+		maxView: 1,
+
+
+forceParse: 0
+    });
+    </script>
+</body>
+</html>

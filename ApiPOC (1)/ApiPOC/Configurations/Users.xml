@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Users>
+  <User>
+    <UserName>testId1</UserName>
+    <Password>testPass1</Password>
+  </User>
+  <User>
+    <UserName>testId2</UserName>
+    <Password>testPass2</Password>
+  </User>
+  <User>
+    <UserName>testId3</UserName>
+    <Password>testPass3</Password>
+  </User>
+</Users>

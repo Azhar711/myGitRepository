@@ -1,0 +1,21 @@
+﻿@model MvcApplication1.ViewModels.RegistrationStep3Model
+@{
+    ViewBag.Title = "step3";
+    Layout = "~/Views/Shared/_Common.cshtml";
+}
+
+<div id="ContentFullPage" align="center">
+    <h1>Member Registration: Step 3 of 3</h1><br />
+    @using (Html.BeginForm())
+    {
+        @Html.Label("Username") <br />
+        @Html.TextBox("Username")<br />
+        @Html.Label("Password") <br />
+        @Html.Password("Password")<br />
+        @Html.Label("CPassword") <br />
+        @Html.Password("CPassword")<br />
+        <input type="submit" class="Button175px" value="Submit" />
+
+
+    }
+</div>

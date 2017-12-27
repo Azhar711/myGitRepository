@@ -1,0 +1,35 @@
+﻿@model MvcApplication1.ViewModels.RegistrationStep2Model
+@{
+    Layout = "~/Views/Shared/_Common.cshtml";
+}
+
+<div id="ContentFullPage" align="center">
+    <h1>CareGiver Registration: Step 2 of 3</h1><br />
+    @using (Html.BeginForm())
+    {
+
+        @Html.RadioButtonFor(x => x.verify, "Mobile") @Html.Label("Mobile")
+
+
+        @Html.RadioButtonFor(x => x.verify, "Email", new { style = "margin-left:251px;" })
+        @Html.Label("_Email")<br>
+    <br />
+    <br />
+
+        <label>xxxxxx2094</label>
+
+
+    <label style="margin-left: 201px;">xxxxxgmail.com</label>
+        <div class="Vseparator" align="center"></div><br /><br />
+
+        <div>
+            <input type="button" value="Get Activation Code" class="Button175px" style="width:200px; height:50px; " align="center" /><br /><br />
+            @Html.LabelFor(x => x.ActivationCode)<br />
+
+            @Html.TextBoxFor(x => x.ActivationCode, new { @class = "Field225pixels", style = "width:100px; " })
+            <br><br />
+            <input type="submit" value="Continue" class="Button125px"  /><br /><br />
+        </div>
+    }
+</div>
+

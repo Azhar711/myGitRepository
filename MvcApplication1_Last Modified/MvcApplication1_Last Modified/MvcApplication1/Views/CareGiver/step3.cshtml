@@ -1,0 +1,23 @@
+﻿@model MvcApplication1.ViewModels.RegistrationStep3Model
+@{
+    ViewBag.Title = "step3";
+    Layout = "~/Views/Shared/_Common.cshtml";
+}
+
+<div id="ContentFullPage" align="center">
+    <h1>CareGiver Registration: Step 3 of 3</h1><br />
+    @using (Html.BeginForm())
+    {
+        @Html.LabelFor(x => x.Username, new { style = "margin-left: -100px;" }) <br />
+        @Html.TextBox("Username")<br />
+        @Html.LabelFor(x => x.Password, new { style = "margin-left: -100px;" }) <br />
+        @Html.Password("Password")<br />
+        @Html.LabelFor(x => x.CPassword, new { style = "margin-left: -48px;" }) <br />
+        @Html.Password("CPassword")<br /><br />
+        <input type="submit" class="Button175px" value="Submit" />
+        <br />
+        <br />
+
+
+    }
+</div>

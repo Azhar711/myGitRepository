@@ -1,0 +1,264 @@
+
+.mobileNav {display:none; }
+
+/*mobile styles*/
+@media only screen and (max-width:599px) {
+
+/*-----------------------------------------------------------------------*/
+/* Mobile Menu * /
+/*-----------------------------------------------------------------------*/
+
+/*mobile header / navigation / search*/
+.mobileNav {display:block; position:absolute; top:120px; left:0; z-index:1000; width:100%; }
+#menuIcon {display:block; width:100%; height:40px; float:left; background-color:#79BDE8; border-bottom:1px solid #455560; border-top:1px solid #959ca1; cursor:pointer; margin-right:10px;}
+#menuIcon.active {background-color:#79BDE8 ; border-bottom:1px solid #455560; border-top:1px solid #959ca1;}
+#menuIcon .title {display:block; float:left; color:#ffffff; font-size:16px; padding:5px 10px 5px 10px; text-align:center;}
+.menuBtn {display:block; margin:0;padding:8px 10px 10px 0;float:left; width:auto !important;}
+.menuBtn span {display:block; margin-top:4px;height:2px;background:#ffffff;width:15px;}
+
+.mobileNav .toggleMenu {display:none;}
+.mobileNav .bullet, .mobileNav .subCategories, .TopNavComment {display:none;}
+.mobileNav div, .toggleMenu div ul, .topLinks a {width:320px; float:left; margin:0;}
+.toggleMenu {overflow:hidden;}
+.toggleMenu div ul {padding:0;}
+.toggleMenu div, .toggleMenu div ul li, .toggleMenu .topLinks a  {font-size:16px; line-height:40px; background-color:#79BDE8 ; color:#ffffff; text-decoration:none; display:block; width:100%; text-align:left; padding:0; border-bottom:1px solid #455560;  cursor:pointer;}
+.toggleMenu .personalInfo div, .toggleMenu .personalInfo div a {line-height:normal; background-color:#455560 ; color:#ffffff; padding:10px; width:300px;}
+.toggleMenu .personalInfo div a {padding:0;}
+.toggleMenu .menuItem, .toggleMenu .topLinks a  {padding-left:10px;}
+.toggleMenu div ul li {border-bottom:1px solid #959ca1; padding:0; background-color:#455560; list-style:none;}
+.toggleMenu div ul li.current, .toggleMenu .topLinks .current {background-color:#313c43}
+.mobileNav ul li span, .mobileNav ul li a, .mobileNav ul li li a {padding: 0 7px; display:block;}
+.mobileNav ul li li a {line-height:normal; padding:7px 0 7px 15px;}
+.mobileNav ul li li {padding:0; background-color:#455560;}
+.mobileNav ul li a  {color:#ffffff; text-decoration:none;}
+.mobileNav ul li.top  {background-color:#476b90;color:#ffffff; border-bottom:1px solid #959ca1;}
+
+/* mobile menu colors */
+#menuIcon.active {background-color:#79BDE8 ; border-bottom:1px solid #455560; border-top:1px solid #959ca1;}
+#menuIcon .title {color:#ffffff;}
+.menuBtn span {background:#ffffff;}
+#menuIcon {background-color:#79BDE8; border-bottom:1px solid #455560; border-top:1px solid #959ca1;}
+.mobileNav ul li {background-color:#79BDE8 ; color:#ffffff; border-bottom:1px solid #455560;}
+.mobileNav ul ul li {border-bottom:1px solid #959ca1;}
+.mobileNav ul li li {background-color:#455560;}
+.mobileNav ul li li.current, span.current {background-color:#949ca1}
+.mobileNav ul li a  {color:#ffffff;}
+.mobileNav ul li.top  {background-color:#476b90;color:#ffffff; border-bottom:1px solid #959ca1;}
+
+
+/*-----------------------------------------------------------------------*/
+/* Responsive CSS * /
+/*-----------------------------------------------------------------------*/
+
+
+/* Page Set-up */
+#Container {width: 320px;  padding:10px; margin:0 auto;}
+#SubTable {width: 320px;}
+img {max-width: 320px; height:auto;}
+
+/* Header */
+#Header {width: 320px;  height: 120px; margin:0;}
+#HeaderLeft {width: 300px; height: 20px; float: left;}
+#HeaderRightTop {width: 100%;float: none; padding: 0;}
+#HeaderLogo {background: url(/mportal/images/logos/logo.png) no-repeat top left; width: 275px; height: 75px; padding: 0; border: 0px;}
+#TextSizer {display:none;}
+#HeaderRightBottom {display:none;}
+#TopNavCorner {display:none;}
+#TopNav {display:none; }
+
+/* Primary Navigation */
+#Menu {display:none;}
+
+/* Content Styles */
+#ContentContainer {width: 320px;padding:30px 0 0 0; border:none;}
+#ContentContainerCornerLeft {display:none;}
+#ContentContainerCornerRight {display:none;}
+#Content {float: none; width: 320px; padding: 0; margin: 0;}
+#ContentFullPage {width: 100%; margin: 0; padding: 0;}
+
+/* Login Styles */
+#LoginImage {display:none;}
+#LoginBoxes {position:inherit; top:0; left:0; margin-bottom:0;}
+
+#Login {float: none;  width: 100%;}
+#LoginTop {display:none;}
+#LoginBottom {display:none;}
+#LoginShadow .Login {width: 100%; float: none; background:none;}	
+#LoginShadow .Login .LoginBox {width: 50%; height: 15px; background-color:#ffffff;; margin:3px 0; padding: 5px; border: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #44403e; float:left; clear:right;}	
+#LoginShadow #EmailLabel { width:30%; text-align:left; float: left; margin:5px;}
+#LoginShadow #PasswordLabel {width:30%; text-align:left; float: left; margin:5px; clear:left;}
+#Tour {float: left; width: 100%; padding-top: 12px; padding-bottom: 10px; padding-left: 5px;}
+#SignOutImage {display:none;}
+
+
+/* Registraton Form Styles */
+.TableRegistration {width: 100%; padding: 0px; margin-right: 25px;}
+.ORText {margin-left: 1px; line-height: 25px;}
+#PasswordStrength {float: right; width: 100%; font-weight: bold; clear: right;}
+#PasswordStrength .None {width: auto; height: 35px; display: none; padding-left: 10px;}
+#PasswordStrength .Weak {width: auto; height: 35px; background: url(/mportal/images/register/password-weak.jpg) no-repeat 78px 15px; padding-top: 18px; padding-left: 10px;}
+#PasswordStrength .Medium {width: auto; height: 35px; background: url(/mportal/images/register/password-medium.jpg) no-repeat 78px 16px; padding-top: 18px; padding-left: 10px;}
+#PasswordStrength .Strong {width: auto; height: 35px; background: url(/mportal/images/register/password-strong.jpg) no-repeat 78px 16px; padding-top: 18px; padding-left: 10px;}
+
+/* Left Navigation */	
+#LeftNavContainer {display:none;}
+
+/* Personal Information */	
+#PersonalInfo {display:none;}
+
+/* Footer */
+#Footer {width: 320px;  height: auto; margin: 0px; padding: 0; margin-top:15px;}
+#FooterLeftTop {display:none;}
+#FooterRightTop {display:none;}
+#FooterLeftBottom {display:none;}
+#FooterRightBottom {width: 100%; height: auto; float: none; background:none; }
+#Legal {width: 100%; margin: 0px; padding-left: 0; padding-top: 10px; padding-bottom: 10px; clear: both;}
+
+/* Text Styles */
+.TextAlignCenter {text-align: center; margin: 0px; }
+.TextAlignRight {text-align: right; margin: 0px;}
+.TextVerticalCenter {vertical-align: middle;}
+.Comment {font-size: 12px; color: #666666;}
+.Comment a {font-size: 12px; color: #666666; text-decoration: underline;}
+.Comment a:hover {font-size: 12px; color: #666666; text-decoration: none;}
+
+/* Images */
+.ImageNoBorder {border: 0px; margin: 0px; padding: 0px;}
+.ImageVertCenter {border: 0px; vertical-align: middle;}
+.ImageLeft {float: left; border: 0px; margin: 0px; padding-right: 5px; padding-bottom: 5px;}
+.ImageRight {float: right; border: 0px; margin: 0px; padding-left: 5px; padding-bottom: 5px;}
+.ArrowButton {border: 0px; vertical-align: middle;}
+
+/*Table/Box Styles*/
+.TablePadding {width:auto; min-width:450px;}
+.TableGeneral, .TableFullPage, .TableColumn450pixels, .TableColumn350pixels, .TableColumn250pixels, .TableColumn200pixels, .TableColumn150pixels, .TableColumn125pixels, .TableColumn100pixels, .TableColumn25pixels  {width: auto;}
+.PaddingBottom {padding-bottom: 10px;}
+.PaddingBottomIcon {padding-bottom: 10px; width: 25px;}
+.CallOutBox {width: 298px; padding: 10px;}
+.PanelLeft {float: left; width: 325px; padding-right: 5px;}
+.PanelRight {float: right; width: 325px; padding-left: 5px;}
+
+/* Alignment */
+.FloatLeft { float: none;}
+.FloatRight { float: none;}
+
+/* Form styles */
+form {margin: 0px; padding: 0px;}
+select {font-size: 14px; margin-top: 4px; margin-bottom: 4px; padding: 2px; vertical-align: middle;}
+input { margin-top: 4px; margin-bottom: 4px; padding-left: 2px; padding-right: 2px; vertical-align: middle;}
+label {vertical-align: middle; font-weight: bold; color: #476b90;}
+.Label {vertical-align: middle; font-weight: bold; color: #476b90;}
+.FormTextRequired {color: #b00829;}
+.Error {color: #b00829; font-size: 12px; font-weight: bold; display: block;margin: 0px;}
+.Field25pixels {width: 25px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; background: #F3F7FC; border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.Field50pixels {width: 50px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; background-color: #F3F7FC; border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.Field100pixels {width: 100px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; background-color: #F3F7FC; border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.Field175pixels {width: 175px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; background-color: #F3F7FC;  border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.Field225pixels {width: 225px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; background-color: #F3F7FC;  border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.Field300pixels {width: 300px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #F3F7FC; padding: 2px; margin: 0px;}
+.Field350pixels {width: 350px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #F3F7FC; padding: 2px; margin: 0px;}
+.Textarea {width: 95%; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; background: #F3F7FC; border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.RadioButtonList {width: 100%; padding: 0px; margin: 0px;}
+.RadioButtonList td {text-align: left; padding-left: 0px; margin-left: 0px;}
+
+/*Form Fields Required*/
+.Field25pixelsRequired {width: 25px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.Field50pixelsRequired {width: 50px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.Field100pixelsRequired {width: 100px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.Field175pixelsRequired {width: 175px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.Field225pixelsRequired {width: 225px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.Field300pixelsRequired {width: 300px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.Field350pixelsRequired {width: 350px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.TextareaRequired {width: 95%; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.RadioButtonListRequired {width: 100%; padding: 0px; margin: 0px; background: #fdd8d6;}
+.RadioButtonListRequired td {text-align: left; padding-left: 0px; margin-left: 0px;}
+
+/*Form Fields Disabled*/
+.ButtonDisabled {background-color: #F7F7F7; color: #D7D7D7;}
+.Field25pixelsDisabled {width: 25px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field50pixelsDisabled {width: 50px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field100pixelsDisabled {width: 100px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field175pixelsDisabled {width: 175px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field225pixelsDisabled {width: 225px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field300pixelsDisabled {width: 300px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e;  border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field350pixelsDisabled {width: 350px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e;  border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.TextareaDisabled {width: 75%; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.RadioButtonListDisable {width: 100%; padding: 0px; margin: 0px; background: #CACACA;}
+.RadioButtonListDisable td {text-align: left; padding-left: 0px; margin-left: 0px;}
+
+
+/* Refill Reminders */
+.addReminder {width: 100%; }
+.addReminder .addField {height:auto; line-height:normal;}
+.addReminder .addField input, .addReminder .addField select {position:inherit; display:block;}
+
+/* PCP Change */
+.providerList .provider {float:none; width:268px; margin:15px 0;}
+
+/* Enrollment Form */
+.program {margin:15px 0; padding:0 0 10px 0; border-bottom:1px solid #cccccc;}
+.program .name {float:none;}
+.program .toolTip {position:relative; float:none; width:100%; height:auto;}
+.program .toolTip .questionIcon {display:none;}
+.program .toolTip .longDescription {position:relative; top:0; right:0px; width:100%; padding:0; margin:0; border:none;}
+.program .toolTip:hover .longDescription {right:0px;}
+
+
+/* Home Content Mobile Styles */
+#ContentHome {float: none !important; width: 320px!important ; height: auto !important;}
+#ContentHomeTop {width: 100% !important; height: auto !important; background: none !important;}
+#ContentHomeBottom {width: 100% !important;}
+#ContentHomeBottom #BoxLeftTop, #ContentHomeBottom #BoxLeftBottom, #ContentHomeBottom #BoxRightTop, #ContentHomeBottom #BoxRightBottom  {float: none !important; width: 299px !important; height: auto !important; border-right: none !important; border-bottom: none !important; padding: 10px !important;}
+#ContentHomeBottom #BoxLeftTop p, #ContentHomeBottom #BoxLeftBottom p, #ContentHomeBottom #BoxRightTop p, #ContentHomeBottom #BoxRightBottom p  {padding-left:75px !important;}
+#ContentHomeBottom hr {width: 100% !important; color: #eef5fa !important; background: #eef5fa !important; height: 1px !important; margin: 0px !important; }
+
+#ContentHomeBottom #BoxLeftTop {float: left; width: 299px; border-right: 1px solid #eef5fa; border-bottom: 1px solid #eef5fa; padding: 10px 25px 0px 15px;}
+#ContentHomeBottom #BoxLeftBottom {float: left; width: 299px;  border-right: 1px solid #eef5fa; padding: 10px 25px 0px 15px;}
+#ContentHomeBottom #BoxRightTop {float: right; width: 299px;   border-bottom: 1px solid #eef5fa; padding: 10px 15px 0px 25px;}
+#ContentHomeBottom #BoxRightBottom {float: right; width: 299px; padding: 10px 15px 0px 25px;}
+#ContentHomeBottom hr {width: 100%; color: #eef5fa; background: #eef5fa; height: 1px; margin: 0px; }
+
+#FeatureTopic {float: none !important;  width: 300px !important;}
+#FeatureTopicTop {display:none !important;}
+#FeatureTopicBottom {display:none !important;}
+#FeatureTopicContent {width: 90% !important; border: 1px solid #476b90 !important;}
+
+
+/* Mobile responsive scrollable tables */
+.scrollable {
+    overflow-x:auto;
+}
+
+.scrollable.has-scroll {
+    position:relative;
+    overflow:hidden; /* Clips the shadow created with the pseudo-element in the next rule. Not necessary for the actual scrolling. */
+}
+.scrollable.has-scroll:after {
+    position:absolute;
+    top:0;
+    left:100%;
+    width:50px;
+    height:100%;
+    border-radius:10px 0 0 10px / 50% 0 0 50%;
+    box-shadow:-5px 0 10px rgba(0, 0, 0, 0.25);
+    content:'';
+}
+/* This is the element whose content will be scrolled if necessary */
+.scrollable.has-scroll > div {
+    overflow-x:auto;
+}
+
+.scrollable > div::-webkit-scrollbar {
+    height:12px;
+}
+.scrollable > div::-webkit-scrollbar-track {
+    box-shadow:0 0 2px rgba(0,0,0,0.15) inset;
+    background:#f0f0f0;
+}
+.scrollable > div::-webkit-scrollbar-thumb {
+    border-radius:6px;
+    background:#ccc;
+}
+
+
+}

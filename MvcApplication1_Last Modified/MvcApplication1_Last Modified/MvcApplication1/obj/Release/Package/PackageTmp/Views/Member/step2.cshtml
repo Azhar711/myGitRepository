@@ -1,0 +1,37 @@
+﻿@model MvcApplication1.ViewModels.RegistrationStep2Model
+@{
+    Layout = "~/Views/Shared/_Common.cshtml";
+}
+
+<div style="height:700px; margin-left:55px; ">
+    <h1>Member Registration: Step 2 of 3</h1><br />
+    @using (Html.BeginForm()) { 
+
+        @Html.RadioButtonFor(x=>x.verify,"Mobile") @Html.Label("Mobile")
+
+
+        @Html.RadioButtonFor(x => x.verify, "Email", new { style = "margin-left:244px;" })
+        @Html.Label("_Email")
+    <br>
+        <br />
+        <br />
+        
+        <input type="radio" name="mob1" value="xxxxxx2094" /> <label >xxxxxx2094</label>    <input type="radio" name="mob1" value="xxxxxx2094" /> <label>xxxxxx2094</label> <br />    
+        <input type="radio" name="mob1" value="xxxxxx2094" /> <label>xxxxxx2094</label>    <input type="radio" name="mob1" value="xxxxxx2094" /> <input type="text" name="mob1" title="Enter Mobile" style="width:100px;" />
+
+    <input type="radio" name="mob1" value="xxxxx" style="margin-left: 65px;" /> <label>xxxxxgmail.com</label>
+        <div class="Vseparator"></div><br /><br />
+
+    <div style="margin-left:150px;">
+        <input type="button" value="Get Activation Code" class="Button175px" style="width:200px; height:50px; " align="center" /><br /><br />
+        @Html.LabelFor(x => x.ActivationCode)<br />
+
+        @Html.TextBoxFor(x => x.ActivationCode, new { @class = "Field225pixels", style = "width:100px; margin-left:33px; " })
+        <br><br />
+        <input type="submit" value="Continue" class="Button125px" style="margin-left: 27px;" /><br /><br />
+    </div>
+    }
+</div>
+
+
+

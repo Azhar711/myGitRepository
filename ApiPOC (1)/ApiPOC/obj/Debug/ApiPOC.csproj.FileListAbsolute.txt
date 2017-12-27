@@ -1,0 +1,134 @@
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\ApplicationInsights.config
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\roslyn\csc.exe
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\roslyn\System.Collections.Immutable.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\roslyn\vbc.exe
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\roslyn\VBCSCompiler.exe
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\roslyn\VBCSCompiler.exe.config
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\ApiPOC.dll.config
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\ApiPOC.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\ApiPOC.pdb
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\EntityFramework.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\EntityFramework.SqlServer.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.AI.Web.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.AI.WindowsServer.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.ApplicationInsights.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.Owin.Cors.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.Owin.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.Owin.Security.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Newtonsoft.Json.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Owin.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\System.Net.Http.Formatting.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\System.Web.Cors.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\System.Web.Http.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\System.Web.Http.Owin.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\System.Web.Http.WebHost.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\EntityFramework.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\EntityFramework.SqlServer.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.AI.Web.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.AI.WindowsServer.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.ApplicationInsights.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.Owin.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.Owin.Cors.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.Owin.Security.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\System.Web.Http.Owin.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\Newtonsoft.Json.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\System.Net.Http.Formatting.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\System.Web.Http.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\bin\System.Web.Http.WebHost.xml
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\obj\Debug\ApiPOC.dll
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\obj\Debug\ApiPOC.pdb
+c:\users\owner\documents\visual studio 2015\Projects\ApiPOC\ApiPOC\obj\Debug\ApiPOC.csprojResolveAssemblyReference.cache
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\ApplicationInsights.config
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\roslyn\csc.exe
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\roslyn\vbc.exe
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\roslyn\VBCSCompiler.exe
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\ApiPOC.dll.config
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\ApiPOC.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\ApiPOC.pdb
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\EntityFramework.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\EntityFramework.SqlServer.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.AI.Web.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.ApplicationInsights.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.Owin.Cors.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.Owin.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.Owin.Security.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Newtonsoft.Json.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Owin.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\System.Net.Http.Formatting.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\System.Web.Cors.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\System.Web.Http.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\System.Web.Http.Owin.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\System.Web.Http.WebHost.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\EntityFramework.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\EntityFramework.SqlServer.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.AI.Web.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.ApplicationInsights.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.Owin.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.Owin.Cors.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.Owin.Security.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\System.Web.Http.Owin.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\Newtonsoft.Json.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\System.Net.Http.Formatting.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\System.Web.Http.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\bin\System.Web.Http.WebHost.xml
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\obj\Debug\ApiPOC.csprojResolveAssemblyReference.cache
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\obj\Debug\ApiPOC.dll
+C:\Users\am22765\Downloads\ApiPOC (1)\ApiPOC\obj\Debug\ApiPOC.pdb

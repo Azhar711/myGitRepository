@@ -1,0 +1,130 @@
+﻿@model MvcApplication1.ViewModels.CareGiverRegisterModel
+@{
+    ViewBag.Title = "CareGiverRegistration";
+    Layout = "~/Views/Shared/_Common.cshtml";
+}
+@{string img_path = System.Configuration.ConfigurationManager.AppSettings["img_path"];}
+
+
+<form method="post">
+    <table id="ContentContainer" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>
+                    <div id="ContentFullPage">
+                        <div style="margin-left: 203px;">
+                            <h1 style="text-align: center;font-size: 25px;">Has ACFC Care manager registered you in Caregiver Program?</h1><br />
+                            <input type="checkbox" value="checkbox" style="margin-left:250px;"><br />
+                            <p style="color:red; width:600px; text-align:center">
+                                If you are establish as a caregiver for a member in our system, you will be able to register for an
+                                online account here. If you are not already in our system, please call Customer Service at 1-800-408-7511. After
+                                completing validation with Customer Service you will then be able to register
+                            </p>
+                        </div>
+                        <h1>
+                           Care Registration: Step 1 of 3
+                        </h1>
+                        <p>
+                            You do not have to register for this site. It is offered to you as a tool to help
+                            you get information. It is not required. You can still call
+                            <span id="ContentPlaceHolder1_lblPlan1">AmeriHealth Caritas DC</span>
+                            at
+                            <span id="ContentPlaceHolder1_lblPhone1">1-800-408-7511</span>
+                            for any questions.
+                        </p>
+                        <p>
+                            Register, complete, and submit the information on the next screens. Once you have
+                            access to the
+                            <span id="ContentPlaceHolder1_lblPlan2">AmeriHealth Caritas DC</span>
+                            member portal, you can review your private health care information about:
+                        </p><ul>
+                            <li>Your health care providers.</li>
+                            <li>Health services that you have received.</li>
+                            <li>Prescription drugs that you take.</li>
+                        </ul>
+                        Access to your private information through the
+                        <span id="ContentPlaceHolder1_lblPlan3">AmeriHealth Caritas DC</span>
+                        member portal is meant only for you. All members must sign up separately to get
+                        their own information.<p></p>
+                        <a href="/memberportal/global/content/privacy.aspx">Information about privacy</a>
+                        <br>
+                        <br>
+
+                        <p>
+                            (<span class="FormTextRequired"> * </span>) Indicates required fields.
+                        </p>
+                        <h2>
+                            Enter your personal information
+                        </h2>
+                        <p>
+                            Fill out the fields below to begin the registration process.
+                        </p>
+                        <span id="ContentPlaceHolder1_lblEmail" class="Error"></span>
+                        <div class="FloatLeft">
+                            <div class="scrollable">
+                                <div>
+                                    <table cellpadding="0" cellspacing="0" border="0" class="TableRegistration">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                   
+                                                    @Html.Label("FirstName") <span class="FormTextRequired">*</span>
+
+                                                    <br>
+                                                    @Html.TextBox("FirstName")<br />
+                                                    <span style="color:red">
+                                                        @Html.ValidationMessage("FirstName")
+                                                    </span>
+                                                    <br>
+                                                    @Html.Label("LastName") <span class="FormTextRequired">*</span>
+                                                    <br>
+
+                                                    @Html.TextBox("LastName")<br />
+                                                    <span style="color:red">
+                                                        @Html.ValidationMessage("LastName")
+                                                    </span>
+                                                    <br />
+                                                    @Html.Label("Email") <span class="FormTextRequired">*</span>
+                                                    <br>
+                                                    @Html.TextBox("Email")<br />
+                                                    <span style="color:red">
+                                                        @Html.ValidationMessage("Email")
+                                                    </span>
+                                                    <br>
+                                                    @Html.Label("Phone") <span class="FormTextRequired">*</span>
+                                                    <br>
+                                                    @Html.TextBox("Phone")<br />
+                                                    <span style="color:red">
+                                                        @Html.ValidationMessage("Phone")
+                                                    </span>
+                                                    <br>
+                                                    @Html.CheckBoxFor(x => x.checkagree) <span class="FormTextRequired">*</span>
+                                                    @Html.Label("checkagree") <br /><br /><br />
+                                                    <span style="color:red">
+                                                        @Html.ValidationMessage("checkagree")
+                                                    </span>
+                                                    <span class="FormTextRequired">
+                                                        You will need to log in to your email to verify the email
+                                                        address you gave above. Then you can create a password. Follow the instructions
+                                                        in the email you received to complete your registration process.
+                                                    </span><br>
+                                                    <br>
+                                                    <input type="submit" value="Submit" class="Button175px" />
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</form>
+
+

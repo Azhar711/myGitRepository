@@ -1,0 +1,36 @@
+/* Home Content Styles */
+#ContentHome {float: right; width: 660px; height: 400px; padding: 0px; margin: 0px; clear: right;}
+#ContentHome ul {list-style: none; margin-left: 1px; padding: 0px; margin-top: 5px; }
+#ContentHome ul li {background: url(/mportal/images/common/bullet.gif) no-repeat left 4px; padding-left: 12px; margin-top: 3px;}
+#ContentHome ul ul {list-style: none; margin-left: 1px; padding: 0px; margin-top: 0px;}
+#ContentHome ul ul li {background: url(/mportal/images/common/dash.gif) no-repeat left 9px; padding-left: 12px; margin-top: 0px;}
+#ContentHome ol {list-style: decimal ; margin-left: 35px; margin-top: 5px; margin-bottom: 10px;}
+#ContentHome ol li {padding-left: 0px; margin-bottom: 5px;}
+#ContentHome ol ol {list-style: lower-roman; margin-left: 35px; margin-top: 1px;}
+#ContentHome ol ol li {padding-left: 0px;}
+#ContentHome ol ul {list-style: none; margin-left: 1px; padding: 0px; margin-top: 3px; }
+#ContentHome ol ul li {background: url(/mportal/images/common/bullet.gif) no-repeat left 4px; padding-left: 12px; margin-top: 3px;}
+#ContentHome p {margin-top: 0px;}
+#ContentHomeTop {}
+#ContentHomeBottom {width: 680px;}
+#ContentHomeBottom h2 {font-size: 13px; color: #0067b1; padding-top: 0px; padding-bottom: 10px; margin: 0px;}
+#ContentHomeBottom h2 a {color: #0067b1; text-decoration: underline;}
+#ContentHomeBottom h2 a:hover {color: #0067b1; text-decoration: none;}
+#ContentHomeBottom #BoxLeftTop {float: left; width: 299px; border-right: 1px solid #eef5fa; border-bottom: 1px solid #eef5fa; padding: 10px 25px 0px 15px;}
+#ContentHomeBottom #BoxLeftBottom {float: left; width: 299px;  border-right: 1px solid #eef5fa; padding: 10px 25px 0px 15px;}
+#ContentHomeBottom #BoxRightTop {float: right; width: 299px;   border-bottom: 1px solid #eef5fa; padding: 10px 15px 0px 25px;}
+#ContentHomeBottom #BoxRightBottom {float: right; width: 299px; padding: 10px 15px 0px 25px;}
+#ContentHomeBottom hr {width: 100%; color: #eef5fa; background: #eef5fa; height: 1px; margin: 0px; }
+
+
+/* Topic Highlight */
+#FeatureTopic {float: left;  width: 100%; clear: left; padding: 0px; margin: 0 0 30px 0;}
+#FeatureTopicTop {display:none;}
+#FeatureTopicBottom {display:none;}
+#FeatureTopicContent {border: 1px solid #476b90; background: #EBEFF3; padding-left: 15px; padding-right: 15px; margin: 0px; overflow: hidden;}
+#FeatureTopic h1 {font-size: 14px; padding-top: 2px;  margin: 0px;}
+#FeatureTopic h1 a {color: #476b90; text-decoration: underline;}
+#FeatureTopic h1 a:hover {color: #476b90; text-decoration: none;}
+#FeatureTopic p {color: #44403e; margin-bottom: 10px;}
+
+.ArrowButton {display:none;}

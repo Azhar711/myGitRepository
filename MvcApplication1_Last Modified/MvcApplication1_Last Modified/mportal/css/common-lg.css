@@ -1,0 +1,526 @@
+/* Page Set-up */
+body {margin: 0;  padding: 0; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.9em;}
+#Container {width: 100%;  margin:0 auto;}
+#SubTable {width: 960px; border-right: 1px solid #B89D8C; border-left: 1px solid #B89D8C; clear: both; padding-bottom: 15px;}
+td {text-align: left; vertical-align: top;}
+hr {width: 100%; color: #b1d1e9; background: #b1d1e9; height: 1px; text-align: center; border: 0px; margin-top: 3px; margin-bottom: 5px; padding: 0px;}
+.SkipNav, .reader {position: absolute;
+  clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
+  clip: rect(1px, 1px, 1px, 1px);}
+	
+/* Tag styles */
+a {text-decoration: underline; color: #44403e;}
+a:hover {text-decoration: none; color: #44403e;}
+h1 {font-size: 28px; font-weight: normal;	color: #b00829; line-height:32px;}
+h1 a {font-weight: normal; color: #b00829; margin-top: 0px; text-decoration: none;}
+h2 {font-size: 18px; font-weight: normal; margin-bottom: 5px; margin-top:25px; color: #44403e;}
+h2 a {font-weight: bold; margin: 0px; color: #44403e; text-decoration: none;}
+h3 {font-size: 16px; font-weight: normal;	margin-bottom: 0px;}
+h3 a {font-weight: bold; margin: 0px; text-decoration: none;}
+h4 {font-size: 15px; font-style: italic; margin: 0px;}
+h4 a {font-style: italic; margin: 0px; text-decoration: none;}
+
+
+table th {line-height:normal;}
+
+/* Header */
+#Header {width: 960px;  height: 120px; margin: 50px auto 0; padding: 0px;}
+#HeaderLeft {width: 300px; height: 20px; float: left;}
+#HeaderRightTop {width: 650px; height: 20px; float: right; clear: right; padding-right: 10px;}
+#HeaderLogo {background: url(/mportal/images/logos/logo.png) no-repeat top left; width: 250px; height: 100px; padding-left: 10px; border: 0px;}
+#TextSizer {float: right; width: 440px; height: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #476b90; text-align: right; padding-top: 4px;  margin-top: 15px; margin-right: 5px;}
+#HeaderRightBottom {width: 100%; position:absolute; top:0; left:0;}
+
+#TopNavCorner {}
+#TopNav {background-color: #B00829; width: 100%; float: right; margin: 0px; padding: 0px; overflow: hidden;}
+#TopNav ul {margin: 0 auto; padding: 0; text-align: right; width:960px;}	
+#TopNav li {display: inline; line-height: 22px; padding-right: 35px; font-size: 12px; color: #b59974;}	
+#TopNav li a {color: #ffffff; font-weight: normal; text-decoration: none;}
+#TopNav li a:hover {color: #E4DDCD;}
+.TopNavComment {font-size: 12px; color: #f8f1e4;}
+
+/* Search Header*/
+#HeaderRightTop #SearchBg {width: 200px; height: 30px; float: right; margin: 0px; padding-top: 5px;}	
+#HeaderRightTop #Search {width: 200px; float: left;  background:url(/mportal/images/common/search-bg.jpg) no-repeat left top; margin-top: 13px;}	
+#HeaderRightTop #Search input {padding: 0px; margin: 0px;}
+#HeaderRightTop #Search #SearchBox {height: 17px; float: left; padding: 0px; margin: 1px 0px 0px 7px; border: 0px; width: 164px; background: none; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #b59974; padding: 0px;}	
+#HeaderRightTop .SearchButton {width: 24px; height: 17px; float: right; background: url(/mportal/images/common/search-button.jpg) no-repeat center center; border: 0px none;}
+#HeaderRightTop .SearchButtonOver {width: 24px; height: 17px; float: right; background: url(/mportal/images/common/search-button-over.jpg) no-repeat center center; border: 0px;}
+#HeaderRightTop #mysearchTop {margin: 0px; padding: 0px;}
+
+/* Primary Navigation */
+#Menu {width: 100%;  height: 40px; margin: 0px; padding: 0px; background-color: #889EB8;}
+#MenuRight {height: 40px; color: #fff; font-size: 16px; font-weight: bold; text-align:left;}
+#Menu ul {margin: 0 auto; padding: 0px; width:960px;}	
+#Menu li {display: inline; line-height: 40px; padding-right: 75px;}	
+#Menu li a {font-size: 18px; color: #ffffff; font-weight: normal; text-decoration: none;}
+#Menu li a:hover {color: #b00829;}
+
+/* Content Styles */
+#ContentContainer {width: 960px; padding: 10px 15px 15px 7px; margin: 0 auto; clear: both;}
+#Content {float: right; width: 660px; padding: 0px; margin: 0px; clear: right;}
+#Content ul {list-style: none; margin-left: 29px; padding: 0px; margin-top: 5px; }
+#Content ul li {list-style: square outside; padding-left: 0px; margin-top: 3px;}
+#Content ul ul {list-style: none; margin-left: 29px; padding: 0px; margin-top: 0px;}
+#Content ul ul li {list-style: disc outside; padding-left: 0px; margin-top: 0px;}
+#Content ol {list-style: decimal ; margin-left: 35px; margin-top: 5px; margin-bottom: 10px;}
+#Content ol li {padding-left: 0px; margin-bottom: 5px;}
+#Content ol ol {list-style: lower-roman; margin-left: 35px; margin-top: 1px;}
+#Content ol ol li {padding-left: 0px;}
+#Content ol ul {list-style: none; margin-left: 1px; padding: 0px; margin-top: 3px; }
+#Content ol ul li {list-style: disc outside; padding-left: 12px; margin-top: 3px;}
+#Content p {margin-top: 0px;}
+#ContentFullPage {width: 916px; margin: 0px; padding: 0px 0px 0px 20px;}
+#ContentFullPage ul {list-style: none; margin-left: 1px; padding: 0px; margin-top: 5px; }
+#ContentFullPage ul li {list-style: square outside; padding-left: 0px; margin-top: 3px; margin-left: 14px;}
+#ContentFullPage ul ul {list-style: none; margin-left: 1px; padding: 0px; margin-top: 0px;}
+#ContentFullPage ul ul li {list-style: disc outside; padding-left: 0px; margin-top: 0px; margin-left: 14px;}
+#ContentFullPage ol {list-style: decimal ; margin-left: 35px; margin-top: 5px; margin-bottom: 10px;}
+#ContentFullPage ol li {padding-left: 0px; margin-bottom: 5px;}
+#ContentFullPage ol ol {list-style: lower-roman; margin-left: 35px; margin-top: 1px;}
+#ContentFullPage ol ol li {padding-left: 0px;}
+#ContentFullPage ol ul {list-style: none; margin-left: 1px; padding: 0px; margin-top: 3px; }
+#ContentFullPage ol ul li {list-style: disc outside; padding-left: 12px; margin-top: 3px;}
+#ContentFullPage p {margin-top: 0px;}
+
+/* Login Styles */
+#LoginImage {position:absolute; background: url(/mportal/images/login/login-image.jpg) no-repeat top left; margin-top:16px; width: 580px; height:478px; top: 0px; left: 380px}
+#LoginImage + #Content {float:left; padding-bottom: 40px}
+#LoginBoxes {position:relative; display: block; float: left}
+#Login {float: none;  width: 100%; padding: 0px; margin: 0px;}
+#LoginTop {display:none;}
+#LoginBottom {display:none;}
+#LoginShadow {width: 308px; border: 1px solid #476b90; padding: 5px; margin: 15px 0; background:none; background-color: #DDE4EB;}
+#LoginShadow h1 {color: #476b90; font-size: 18px;  font-weight: normal; text-indent: 5px; padding-top: 5px; padding-bottom: 10px; margin: 0px;}
+#LoginShadow .Login {width: 100%; float: none; background:none;}	
+#LoginShadow .Login .LoginBox {width: 50%; height: 15px; background-color:#ffffff;; margin:3px 0; padding: 5px; border: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #44403e; float:left; clear:right;}		
+#LoginShadow .LoginBox input {padding: 0px; margin: 0px;}
+#LoginShadow #EmailLabel { width:30%; text-align:left; float: left; margin:5px;}
+#LoginShadow #PasswordLabel {width:30%; text-align:left; float: left; margin:5px; clear:left;}
+#LoginShadow .LoginButton {width: 84px; height: 24px; background: none; background-color:#476b90; color:#ffffff; border: none;  margin-left: 183px;}
+#LoginShadow .LoginButtonOver {width: 84px; height: 24px; background: none; background-color:#476b90; color:#ffffff; border: none;  margin-left: 183px;}
+#LoginShadow #PasswordReset {font-size: 14px; color: #476b90; margin-top: 5px; margin-left: 101px;}
+#LoginShadow #PasswordReset a {color: #476b90;}
+.LoginError {color: #b00829; font-size: 12px; font-weight: bold; display: block; margin: 0px 10px 0px 20px; padding: 0px 0px 10px;}	
+#TourLogoContainer {padding-top: 15px; padding-bottom: 15px; clear: both;}
+#Tour {float: left; width: 100%; padding-top: 12px; padding-bottom: 10px; padding-left: 5px;}
+#Tour a {color: #b59974; font-size: 14px; font-weight: bold; text-decoration: underline;}
+#Tour a:hover {text-decoration: none;}
+#AMFCLogo {display: none;}
+#SignOutImage {float: left; height: 190px; width: 207px; background: url(/mportal/images/login/mom-son.jpg) no-repeat;}
+
+/* Registration Style */
+#Register {float: none;  width: 100%; height:auto;}
+#RegisterTop {display:none;}
+#RegisterBottom {display:none;}
+#RegisterShadow {width: 308px; height: auto; border: 1px solid #B00829; padding: 5px; background:none; background-color: #fcfcfc;}
+#RegisterShadow ul {list-style: none; padding: 0px; margin-top: 5px; }
+#RegisterShadow ul li {list-style: square outside; padding-left: 0px; margin-top: 3px; margin-left: 15px;}
+#RegisterShadow .RegisterButton {width: 84px; height: 24px; background: none; background-color:#B00829; color:#ffffff; border: none;  margin:0; margin-left: 183px; cursor:pointer;}
+#RegisterShadow .RegisterButtonOver {width: 84px; height: 24px; background: none; background-color:#B00829; color:#ffffff; border: none;  margin:0; margin-left: 183px;cursor:pointer;}
+#RegisterShadow h1 {font-size: 18px; color: #A37E69; font-weight: normal; text-indent: 20px; padding-top: 5px; margin-bottom: 18px;}
+#RegisterShadow ul {list-style: none; margin-left: 22px; padding: 0px; margin-top: 5px;}
+#RegisterShadow li {font-size: 14px; color: #A37E69; list-style: square outside; padding-left: 0px; margin-top: 3px; margin-bottom: 0px;}
+.RegisterFloatLeft {float: left;}
+.RegisterFloatRight {float: right;}
+#RegisterBirthMonth {float:left; margin-top:0px; margin-left:13px; color:#44403e;}
+#RegisterBirthDay {float:left; margin-top:0px; margin-left:38px; color:#44403e;}
+#RegisterBirthYear {float:left; margin-top:0px; margin-left:46px; color:#44403e;}
+.DottedLine {border-bottom: dotted 1px #44403e;}
+
+/* Registraton Form Styles */
+.TableRegistration {width: 255px; padding: 0px; margin-right: 25px;}
+.ORText {margin-left: 1px; line-height: 25px;}
+#PasswordStrength {float: right; width: 655px; font-weight: bold; clear: right;}
+#PasswordStrength .None {width: 240px; height: 35px; display: none; padding-left: 10px;}
+#PasswordStrength .Weak {width: 240px; height: 35px; background: url(/mportal/images/register/password-weak.jpg) no-repeat 78px 15px; padding-top: 18px; padding-left: 10px;}
+#PasswordStrength .Medium {width: 240px; height: 35px; background: url(/mportal/images/register/password-medium.jpg) no-repeat 78px 16px; padding-top: 18px; padding-left: 10px;}
+#PasswordStrength .Strong {width: 240px; height: 35px; background: url(/mportal/images/register/password-strong.jpg) no-repeat 78px 16px; padding-top: 18px; padding-left: 10px;}
+
+/* Left Navigation */	
+#LeftNavContainer {float: left; width: 234px; clear: left;}
+#LeftNav {width: 100%; margin-bottom:35px;}
+#LeftNavTop {}
+#LeftNavBottom {}
+#LeftNavShadow {width: 230px;}
+#LeftNavShadow h1 {background-color: #B00829; color:#ffffff; height: 55px; line-height: 55px; font-size: 24px; padding-left: 10px; position: relative; border-right:20px solid #F05133;}
+#LeftNavShadow h1 a {color:#ffffff;  text-decoration: none;}
+#LeftNavShadow h1 a:hover {color: #476b90; text-decoration: none;}
+
+#LeftNavShadow ul {line-height: 2.3em; margin-bottom: 18px; margin:0 0 0 13px; padding:0;}
+#LeftNavShadow ul li {color: #162732; font-size: 14px; list-style: none; padding: 0; margin: 0; margin-bottom: 10px;}
+#LeftNavShadow ul li a {color: #476b90; text-decoration: none; font-weight: bold;}
+#LeftNavShadow ul li a:hover {color: #476b90; text-decoration: none;}
+
+/* Personal Information */	
+#PersonalInfo {float: left;  width: 234px;}
+#PersonalInfoTop {}
+#PersonalInfoBottom {}
+#PersonalInfoShadow {width: 100%; border: 1px solid #889EB8; overflow: hidden;}
+#PersonalInfoShadow h1 {background-color: #889EB8; color:#ffffff; line-height: 45px; font-size: 16px; position: relative; margin:0; padding:0 0 0 10px;}
+#PersonalInfoShadow h1 a {color:#ffffff;  text-decoration: none;}
+#PersonalInfoShadow h2 {color: #162732; font-size: 13px; font-weight: normal; text-indent: 15px; margin-bottom: 10px; margin-top: 0px;}
+#PersonalInfoShadow h2 a {color: #162732; font-weight: normal; text-decoration: underline;}
+#PersonalInfoShadow h2 a:hover {font-weight: normal; text-decoration: none;}
+#PersonalInfoShadow p {margin: 0px 0px 0px 17px; padding: 0px 0px 10px; color: #44403e;}
+
+/* Footer */
+#Footer {width: 100%;  margin: 0px; padding: 0px; background-color: #889EB8; }
+#FooterLeftTop {}
+#FooterRightTop {}
+#FooterLeftBottom {}
+#FooterRightBottom {width: 960px; margin: 0 auto; color: #ffffff;}
+#Footer ul {margin: 0px; padding: 0px;}	
+#Footer li {display: inline; line-height: 30px; padding-left: 4px; padding-right: 4px;}	
+#Footer li a {font-size: 13px; color: #ffffff; text-decoration: none;}
+#Footer li a:hover {color: #b00829;}
+#Legal {width: 960px; font-size: 11px; color: #44403e; margin: 0 auto; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; clear: both;}
+#Legal a {color: #44403e;}
+
+/* Text Styles */
+.TextAlignCenter {text-align: center; margin: 0px; }
+.TextAlignRight {text-align: right; margin: 0px;}
+.TextVerticalCenter {vertical-align: middle;}
+.Comment {font-size: 12px; color: #666666;}
+.Comment a {font-size: 12px; color: #666666; text-decoration: underline;}
+.Comment a:hover {font-size: 12px; color: #666666; text-decoration: none;}
+
+/* Images */
+.ImageNoBorder {border: 0px; margin: 0px; padding: 0px;}
+.ImageVertCenter {border: 0px; vertical-align: middle;}
+.ImageLeft {float: left; border: 0px; margin: 0px; padding-right: 5px; padding-bottom: 5px;}
+.ImageRight {float: right; border: 0px; margin: 0px; padding-left: 5px; padding-bottom: 5px;}
+.ArrowButton {border: 0px; vertical-align: middle;}
+
+/*Table/Box Styles*/
+.TableGeneral {width: 650px; padding: 2px; }
+.TableCenter {padding: 2px; text-align: center; }
+.TablePadding {width: 650px;}
+.TablePadding td {padding-top: 5px; padding-bottom: 5px; padding-right: 5px;}
+.TableFullPage {width: 740px; padding: 2px;}
+.TableColumn450pixels {width: 450px;}
+.TableColumn350pixels {width: 350px;}
+.TableColumn250pixels {width: 250px;}
+.TableColumn200pixels {width: 200px;}
+.TableColumn150pixels {width: 150px;}
+.TableColumn125pixels {width: 125px;}
+.TableColumn100pixels {width: 100px;}
+.TableColumn25pixels {width: 25px;}
+.PaddingBottom {padding-bottom: 10px;}
+.PaddingBottomIcon {padding-bottom: 10px; width: 25px;}
+.CallOutBox {width: 100%; padding: 5px; background: #eee; border: 1px solid #ccc;}
+.PanelLeft {float: left; width: 325px; padding-right: 5px;}
+.PanelRight {float: right; width: 325px; padding-left: 5px;}
+
+/* Alignment */
+.FloatLeft { float: left; border: 0px;}
+.FloatRight { float: right; border: 0px;}
+
+/* Grid View Styles */
+.GridView {background: #fcfcfc; width: 100%;}
+.GridView th {background: #B00829; padding: 5px; color: #ffffff; font-weight: bold; border: 1px solid #B00829;}
+.GridViewHeader {background: #B00829; padding: 5px; color: #ffffff; font-weight: bold; border: 1px solid #B00829;}
+.GridView td {border: 1px solid #999999; padding: 5px; font-size: 12px;}
+.GridViewNoData {background: #B00829; border-bottom: 1px solid #B00829; border-left: 1px solid #B00829; border-right: 1px solid #B00829; width: 100%;}
+.GridViewNoData th {background: #B00829; padding: 5px; color: #ffffff; font-weight: bold; border: 1px solid #B00829;}
+.GridViewNoData td {border: 1px solid #fcfcfc; padding: 5px; font-size: 12px;}
+
+/* Button styles */
+.Button75px, .Button75pxOver, .Button125px, .Button125pxOver, .Button175px, .Button175pxOver {height: 27px; background: none; background-color:#476b90; color:#ffffff; border: none; cursor:pointer;}
+.Button75px, .Button75pxOver {width: 75px;}
+.Button125px, .Button125pxOver {width: 125px;}
+.Button175px, .Button175pxOver {min-width: 175px;}
+
+/* Form styles */
+form {margin: 0px; padding: 0px;}
+select {font-size: 14px; margin-top: 4px; margin-bottom: 4px; padding: 2px; vertical-align: middle;}
+input { margin-top: 4px; margin-bottom: 4px; padding-left: 2px; padding-right: 2px; vertical-align: middle;}
+label {vertical-align: middle; font-weight: bold; color: #476b90;}
+.Label {vertical-align: middle; font-weight: bold; color: #476b90;}
+.FormTextRequired {color: #b00829;}
+.Error {color: #b00829; font-size: 12px; font-weight: bold; display: block;margin: 0px;}
+.Field25pixels {width: 25px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; background: #F3F7FC; border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.Field50pixels {width: 50px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; background-color: #F3F7FC; border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.Field100pixels {width: 100px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; background-color: #F3F7FC; border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.Field175pixels {width: 175px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; background-color: #F3F7FC;  border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.Field225pixels {width: 225px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; background-color: #F3F7FC;  border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.Field300pixels {width: 300px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #F3F7FC; padding: 2px; margin: 0px;}
+.Field350pixels {width: 350px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #F3F7FC; padding: 2px; margin: 0px;}
+.Textarea {width: 95%; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; background: #F3F7FC; border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.RadioButtonList {width: 100%; padding: 0px; margin: 0px;}
+.RadioButtonList td {text-align: left; padding-left: 0px; margin-left: 0px;}
+
+/*Form Fields Required*/
+.Field25pixelsRequired {width: 25px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.Field50pixelsRequired {width: 50px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.Field100pixelsRequired {width: 100px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.Field175pixelsRequired {width: 175px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.Field225pixelsRequired {width: 225px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.Field300pixelsRequired {width: 300px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.Field350pixelsRequired {width: 350px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.TextareaRequired {width: 95%; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.RadioButtonListRequired {width: 100%; padding: 0px; margin: 0px; background: #fdd8d6;}
+.RadioButtonListRequired td {text-align: left; padding-left: 0px; margin-left: 0px;}
+
+/*Form Fields Disabled*/
+.ButtonDisabled {background-color: #F7F7F7; color: #D7D7D7;}
+.Field25pixelsDisabled {width: 25px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field50pixelsDisabled {width: 50px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field100pixelsDisabled {width: 100px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field175pixelsDisabled {width: 175px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field225pixelsDisabled {width: 225px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field300pixelsDisabled {width: 300px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e;  border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field350pixelsDisabled {width: 350px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e;  border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.TextareaDisabled {width: 75%; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #44403e; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.RadioButtonListDisable {width: 100%; padding: 0px; margin: 0px; background: #CACACA;}
+.RadioButtonListDisable td {text-align: left; padding-left: 0px; margin-left: 0px;}
+
+/* Error Page */
+.ErrorPageHeaderText{font-size: 25px; font-weight: bold; color: #44403e; margin-top: 0px;}
+
+/* Member Id Card */
+#IdCardConfirmation{font-size: 12px; color: #666666;}
+
+/* UtilityArea - Includes Text Sizer and Social Bookmarks */	
+#UtilityArea {color: #476b90; text-align: right; font-size: 11px; margin-right: 10px; vertical-align: middle;}
+#UtilityArea a {color: #476b90; text-decoration: none;}
+#UtilityArea a:hover {color: #476b90; text-decoration: none;}
+#normal {font-size: 13px;}
+#medium {font-size: 14px;} 
+#large {font-size: 15px;}
+
+/* Streaming Video - Popup 	*/
+#VideoPopBody {background-color: #f2f2f2;}
+#VideoPop {padding: 10px; font-size: 13px; clear: both;}
+#VideoPop h2 { font-size: 14px;	font-weight: bold;	margin: 0px; color: #e31a3a;}
+#VideoPopHeader {padding-left: 10px; padding-top: 10px; float: left; clear: both;}
+#UtilityHeader {float: right; padding-top: 10px; clear: both;}
+.TableVideo {width: 515px; padding: 4px; border: 1px solid #cccccc; background: #eeeeee;}
+.TableVideo h2 {margin: 0px; padding: 0px; text-decoration: none;}
+.TableVideo h2 a {text-decoration: none;}
+.TableVideo h2:hover {color: #666666; text-decoration: none;}
+
+/* RSS Feed */
+.Rss {font-size: 11px; color: #666666; width: 125px; height: 28px; background: url(/global/images/common/rss-box.jpg) no-repeat top left; margin-top: 5px; margin-bottom: 10px;}
+.Rss a {font-size: 11px; color: #666666; text-decoration: none;}
+.Rss a:hover {color: #e31a3a; text-decoration: none;}
+.RssIcon {margin-top: 7px; margin-left: 7px; border: 0px;}
+
+
+/* Refill Reminders */
+
+.refillReminderList, .myMedications table {background: #fcfcfc; width: 100%; border-collapse:collapse;}
+.refillReminderList th, .myMedications table th {background: #B00829; padding: 5px; color: #ffffff; font-weight: bold; border: 1px solid #B00829;}
+.refillReminderList td, .myMedications table td {border: 1px solid #999999; padding: 5px; font-size: 12px;}
+.editLinks {width:67px; position:relative;}
+.lockedRow {position:relative;}
+.editRow {background-color:#eeeeee;}
+
+.editLinks .delete, .editLinks .update, .editLinks .cancel, .lockedRow .edit {width:20px; height:20px; margin:1px; position:relative; display:block; float:left;}
+.editLinks .delete span, .editLinks .update span, .editLinks .cancel span, .lockedRow .edit span {display:block; position:absolute;text-indent:-9999px; z-index:10;}
+.editLinks .delete:hover span, .editLinks .update:hover span, .editLinks .cancel:hover span, .lockedRow .edit:hover span {text-indent:0px; margin-top:-32px; margin-left:15px; padding:3px; height:auto; border:1px solid #44403e; background-color:#ffffff;}
+.lockedRow .edit {background: url(/mportal/images/icons/icon-edit.png) no-repeat top left;}
+.editLinks .cancel {background: url(/mportal/images/icons/icon-cancel.png) no-repeat top left;}
+.editLinks .update {background: url(/mportal/images/icons/icon-save.png) no-repeat top left;}
+.editLinks .delete {background: url(/mportal/images/icons/icon-delete.png) no-repeat top left;}
+
+.addReminder {width: 450px; padding: 5px; background: #eee; border: 1px solid #ccc; position:relative;}
+.addReminder .addField {border:1px solid #eeeeee; height:50px; line-height:50px;}
+.addReminder .addField input, .addReminder .addField select {padding:5px; margin:12px 0;width:220px; position:absolute; right:10px;}
+.addReminder .addField input {width:210px;}
+
+
+/* My Claims History */
+
+.claimsSearch .startDate, .claimsSearch .endDate {float:left; position:relative; width:300px;}
+.claimsSearch .startDate img {position:absolute; top:7px; right:87px;}
+.claimsSearch .endDate img {position:absolute; top:7px; right:96px;}
+.claimsSearch .startDate input, .claimsSearch .endDate input {width:140px;}
+
+.toggleBox {padding: 10px; margin:15px 0; background: #eee; border: 1px solid #ccc; position:relative; overflow:hidden;}
+.toggleClick {background: url(/mportal/images/common/toggle-closed.png) no-repeat 5px 10px; cursor:pointer;}
+.toggleClick.open {background: url(/mportal/images/common/toggle-open.png) no-repeat 5px 10px;}
+.toggle {}
+.toggleBox span {vertical-align:top;}
+.claimHeader, .claimDetails {padding-left:15px; padding-right:15px; position:relative;}
+.claimHeader .claimDate {width:100%; line-height:normal; padding:5px; margin:0 0 5px 0; display:inline-block; border-bottom:1px solid #cccccc;}
+.claimHeader label {cursor:pointer;}
+.claimHeader .claimNumber, .claimHeader .provider, .claimHeader .status {width:191px; line-height:normal; padding:10px 0 0 5px; margin:0 ;display:inline-block; vertical-align:top;}
+.claimHeader .claimNumber {}
+.claimHeader .provider {}
+.claimHeader .status span {color:#B00829; padding:5px; margin:0; }
+.claimDetails {}
+.claimDetails .claimDesc {width:100%; line-height:normal; padding:5px; margin:15px 0; display:inline-block;  border-top:1px solid #cccccc;}
+.claimDetails .datePaid, .claimDetails .paid, .claimDetails .approved, .claimDetails .memberCost {width:140px; line-height:normal; padding:10px 0 0 5px; margin:0 ;display:inline-block; vertical-align:top;}
+.claimDetails .datePaid label, .claimDetails .paid label, .claimDetails .approved label, .claimDetails .memberCost label {display:block;}
+.claimDetails .paid {}
+.claimDetails .approved {}
+.claimDetails .datePaid span, .claimDetails .paid span, .claimDetails .approved span, .claimDetails .memberCost span {color:#B00829; font-size:22px; padding:5px; margin:0;}
+
+#ui-datepicker-div {background-color:#ffffff; border:1px solid #cccccc; padding:10px;}
+#ui-datepicker-div td {border:1px solid #cccccc; text-align:center;}
+#ui-datepicker-div td a {text-decoration: none; display:block}
+.ui-datepicker-title {text-align:center; font-weight:bold;}
+.ui-datepicker-prev {position:absolute; left:8px; background: url(/mportal/images/icons/arrow-button-left.jpg) no-repeat 5px 5px; cursor:pointer; overflow:hidden; width:25px; height:25px;  text-indent:100%; white-space:nowrap;   display:block;}
+.ui-datepicker-next{position:absolute; right:8px; background: url(/mportal/images/icons/arrow-button-right.jpg) no-repeat 5px 5px; cursor:pointer;overflow:hidden; width:25px; height:25px;  text-indent:100%; white-space:nowrap;   display:block;}
+
+
+/* PCP Change */
+.providerList {}
+.providerList .provider {float:left; width:258px; padding:15px 25px; margin:10px; border:1px solid #cccccc;}
+.providerList .provider label {}
+.provider div {border-bottom:1px solid #cccccc; padding:10px 0;}
+
+.providerConfirm {float:left; width:258px; padding:15px 25px; margin:10px; border:1px solid #cccccc;}
+.providerConfirm .firstName, .providerConfirm .lastName, .providerConfirm .city, .providerConfirm .state, .providerConfirm .zip {display:inline;}
+.providerConfirm .firstName, .providerConfirm .lastName, .providerConfirm .providerId {font-weight:bold; color:#476B90;}
+.providerConfirm .phone {font-weight:bold; border-bottom:1px solid #cccccc;}
+.providerConfirm .providerId {margin-bottom:15px;}
+
+.changePCP {width: 450px; padding: 5px; background: #eee; border: 1px solid #ccc; position:relative;}
+.changePCP .addField {border:1px solid #eeeeee; height:50px; line-height:50px;}
+.changePCP .addField input, .changePCP .addField select {padding:5px; margin:12px 0;width:220px; position:absolute; right:10px;}
+.changePCP .addField input {width:210px;}
+
+/* Enrollment Form */
+
+.programList {margin-top:20px}
+.program {clear:both; width:100%;}
+.program .name {float:left; padding-bottom:15px;}
+.program .toolTip {position:relative; float:left; width:25px; height:25px; margin:0 5px; cursor:pointer;}
+.program .toolTip .questionIcon {text-indent:-9999px; font-size:16px; font-weight:bold; color:#cccccc; background: url(/mportal/images/icons/question.jpg) no-repeat 5px 5px;}
+.program .toolTip .longDescription {position:absolute; top:0; right:9999px; z-index:999; width:300px; padding:10px; margin:10px; background-color:#ffffff; border:1px solid #cccccc;}
+.program .toolTip:hover .longDescription {right:-335px;}
+.enrollButtons {clear:both;}
+
+.confirmPrograms {float:left; min-width:258px; padding:15px 25px; margin:10px; border:1px solid #cccccc;}
+.confirmPrograms .programList {margin:0 0 10px 0; padding:0 0 10px 0; border-bottom:1px solid #cccccc;}
+.confirmPrograms .phoneNumber {margin:0; padding:0 0 10px 0;}
+.confirmPrograms .programList label {display:block;}
+
+/*-----------------------------------------------------------------------------------------*/
+/*------------------------------------FONT-SIZES AND COLORS--------------------------------*/
+/*-----------------------------------------------------------------------------------------*/
+
+/* Page Set-up */
+body {font-size: 18px;}
+#SubTable {border-right: 1px solid #0067b1; border-left: 1px solid #0067b1;}
+hr {color: #79BDE8; background: #79BDE8;}
+	
+/* Tag styles */
+a {color: #162732;}
+a:hover {color: #162732;}
+h1 {font-size: 28px;color: #0067b1;}
+h1 a {color: #0067b1;}
+h2 {font-size: 20px; color: #162732;}
+h2 a {color: #162732;}
+h3 {font-size: 20px;}
+h4 {font-size: 18px;}
+sup {font-size: 9px;}
+
+/* Header */
+#TopNav {background-color: #0067b1;}
+#TopNav li {font-size: 16px; color: #ffffff;}	
+#TopNav li a {color: #ffffff;}
+#TopNav li a:hover {color: #DEEFFA;}
+.TopNavComment {font-size: 16px; color: #ffffff;}
+
+
+/* Primary Navigation */
+#Menu {background-color: #79BDE8 ;}
+#MenuRight {font-size: 20px;}
+#Menu li a {font-size: 22px; color: #ffffff;}
+#Menu li a:hover {color: #0067b1;}
+
+/* Login Styles */
+#LoginShadow {background-color: #D3EAF8;}
+#LoginShadow h1 {color: #476b90; font-size: 22px;  }
+#LoginShadow .Login .LoginBox {background-color:#ffffff; font-size: 16px; color: #162732;}	
+#LoginShadow .LoginButton {background-color:#0067b1; color:#ffffff; cursor:pointer;}
+#LoginShadow .LoginButtonOver {background-color:#0067b1; color:#ffffff; cursor:pointer;}
+#LoginShadow #PasswordReset {font-size: 18px; color: #162732;}
+#LoginShadow #PasswordReset a {color: #162732;}
+.LoginError {color: #F9856E; font-size: 16px;}	
+#Tour a {color: #b59974; font-size: 18px;}
+
+/* Registration Style */
+#RegisterShadow {background-color: #F9856E;}
+#RegisterShadow .RegisterButton {background-color:#ffffff; color:#F9856E; }
+#RegisterShadow .RegisterButtonOver {background-color:#ffffff; color:#F9856E;}
+#RegisterShadow h1 {font-size: 22px; color: #ffffff;}
+#RegisterShadow li {font-size: 18px; color: #ffffff;}
+#RegisterBirthMonth, #RegisterBirthDay, #RegisterBirthYear {color:#F9856E;}
+.DottedLine {border-bottom: dotted 1px #F9856E;}
+
+/* Left Navigation */	
+#LeftNavShadow h1 {background-color: #F9856E; color:#ffffff; font-size: 28px; border-right:20px solid #F05133;}
+#LeftNavShadow h1 a {color:#ffffff;}
+#LeftNavShadow h1 a:hover {color: #ffffff;}
+#LeftNavShadow ul li {color: #0067b1; font-size: 18px;}
+#LeftNavShadow ul li a {color: #0067b1;}
+#LeftNavShadow ul li a:hover {color: #0067b1;}
+
+/* Personal Information */	
+#PersonalInfoShadow {border: 1px solid #0067b1;}
+#PersonalInfoShadow h1 {background-color: #0067b1; color:#ffffff; font-size: 20px;}
+#PersonalInfoShadow h1 a {color:#ffffff;}
+#PersonalInfoShadow h2 {color: #162732; font-size: 16px;}
+#PersonalInfoShadow h2 a {color: #162732;}
+#PersonalInfoShadow p {color: #162732;}
+
+/* Footer */
+#Footer {background-color: #0067b1;}
+#FooterRightBottom {color: #ffffff;}
+#Footer li a {font-size: 16px; color: #ffffff;}
+#Footer li a:hover {color: #DEEFFA;}
+#Legal {font-size: 14px; color: #162732;}
+#Legal a {color: #162732;}
+
+/* Grid View Styles */
+.GridView {background: #fcfcfc;}
+.GridView th {background: #0067b1; color: #ffffff; border: 1px solid #0067b1;}
+.GridViewHeader {background: #0067b1; color: #ffffff; border: 1px solid #0067b1;}
+.GridView td {border: 1px solid #999999; font-size: 16px;}
+.GridViewNoData {background: #f2f2f2; border-bottom: 1px solid #0067b1; border-left: 1px solid #0067b1; border-right: 1px solid #0067b1;}
+.GridViewNoData th {background: #0067b1; color: #ffffff; border: 1px solid #0067b1;}
+.GridViewNoData td {border: 1px solid #cddcef; font-size: 16px;}
+
+/* Button styles */
+.Button75px, .Button75pxOver, .Button125px, .Button125pxOver, .Button175px, .Button175pxOver {background-color:#0067b1; color:#ffffff;}
+
+/* Form styles */
+select {font-size: 18px;}
+label {color: #0067b1;}
+.Label {color: #0067b1;}
+.FormTextRequired {color: #E96556;}
+.Error {color: #E96556; font-size: 16px;}
+.Field25pixels, .Field50pixels, .Field100pixels, .Field175pixels, .Field225pixels, .Field300pixels, .Field350pixels, .Textarea {font-size: 17px; color: #162732; background: #F3F7FC;}
+
+/*Form Fields Required*/
+.Field25pixelsRequired, .Field50pixelsRequired, .Field100pixelsRequired, .Field175pixelsRequired, .Field225pixelsRequired, .Field300pixelsRequired, .Field350pixelsRequired, .TextareaRequired {font-size: 16px; color: #162732; background: #fdd8d6;}
+
+/*Form Fields Disabled*/
+.ButtonDisabled {background-color: #F7F7F7; color: #D7D7D7;}
+.Field25pixelsDisabled, .Field50pixelsDisabled, .Field100pixelsDisabled, .Field175pixelsDisabled, .Field225pixelsDisabled, .Field300pixelsDisabled, .Field350pixelsDisabled, .TextareaDisabled {font-size: 16px; color: #44403e;background: #CACACA;}
+
+/* Error Page */
+.ErrorPageHeaderText{color: #162732;}
+
+/* Member Id Card */
+#IdCardConfirmation{font-size: 16px; color: #162732;}
+
+/* UtilityArea - Includes Text Sizer and Social Bookmarks */	
+#UtilityArea {color: #0067b1; font-size: 14px;}
+#UtilityArea a {color: #0067b1;}
+#UtilityArea a:hover {color: #626262;}
+#normal {font-size: 13px;}
+#medium {font-size: 14px;} 
+#large {font-size: 15px;}
+
+/* Refill Reminders */
+
+.refillReminderList th, .myMedications table th {background: #0093D0;border:1px solid #0093d0;}
+
+/* My Claims History */
+.claimHeader .status span {color:#0067b1;}
+.claimDetails .datePaid span, .claimDetails .paid span, .claimDetails .approved span, .claimDetails .memberCost span {color:#0067b1;}

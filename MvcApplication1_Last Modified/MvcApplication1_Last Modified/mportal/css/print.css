@@ -1,0 +1,268 @@
+/* Home Content Styles */
+#ContentHome {float: right; width: 680px; height: 400px; padding: 0px; margin: 0px; clear: right;}
+#ContentHome ul {list-style: none; margin-left: 1px; padding: 0px; margin-top: 5px; }
+#ContentHome ul li {background: url(/mportal/images/common/bullet.gif) no-repeat left 4px; padding-left: 12px; margin-top: 3px;}
+#ContentHome ul ul {list-style: none; margin-left: 1px; padding: 0px; margin-top: 0px;}
+#ContentHome ul ul li {background: url(/mportal/images/common/dash.gif) no-repeat left 9px; padding-left: 12px; margin-top: 0px;}
+#ContentHome ol {list-style: decimal ; margin-left: 35px; margin-top: 5px; margin-bottom: 10px;}
+#ContentHome ol li {padding-left: 0px; margin-bottom: 5px;}
+#ContentHome ol ol {list-style: lower-roman; margin-left: 35px; margin-top: 1px;}
+#ContentHome ol ol li {padding-left: 0px;}
+#ContentHome ol ul {list-style: none; margin-left: 1px; padding: 0px; margin-top: 3px; }
+#ContentHome ol ul li {background: url(/mportal/images/common/bullet.gif) no-repeat left 4px; padding-left: 12px; margin-top: 3px;}
+#ContentHome p {margin-top: 0px;}
+#ContentHomeTop {width: 680px; height: 235px; background: url(/mportal/images/photos/asian-family-of-three.jpg) no-repeat right top; padding-top: 10px;}
+#ContentHomeBottom {width: 680px; clear: both;}
+#ContentHomeBottom h2 {font-size: 13px; color: #5554a0; padding-top: 0px; padding-bottom: 10px; margin: 0px;}
+#ContentHomeBottom h2 a {color: #5554a0; text-decoration: underline;}
+#ContentHomeBottom h2 a:hover {color: #5554a0; text-decoration: none;}
+#ContentHomeBottom #BoxLeftTop {float: left; width: 299px; height: 100px; border-right: 1px solid #eef5fa; border-bottom: 1px solid #eef5fa; padding: 10px 25px 0px 15px; clear: left;}
+#ContentHomeBottom #BoxLeftBottom {float: left; width: 299px; height: 100px; border-right: 1px solid #eef5fa; padding: 10px 25px 0px 15px; clear: left;}
+#ContentHomeBottom #BoxRightTop {float: right; width: 299px; height: 100px;  border-bottom: 1px solid #eef5fa; padding: 10px 15px 0px 25px; clear: right;}
+#ContentHomeBottom #BoxRightBottom {float: right; width: 299px; height: 100px; padding: 10px 15px 0px 25px; clear: right;}
+#ContentHomeBottom hr {width: 100%; color: #1879be; background: #eef5fa; height: 1px; margin: 0px; clear: both;}
+
+/* Topic Highlight */
+#FeatureTopic {float: left;  width: 360px; clear: left; padding: 0px; margin: 0px;}
+#FeatureTopicTop {height: 10px; width: 360px; background: url(/mportal/images/home/topic-highlight-top.jpg) no-repeat left top; padding: 0px; margin: 0px; font-size: 0px; overflow: hidden;}
+#FeatureTopicBottom {width: 360px; height: 9px; background: url(/mportal/images/home/topic-highlight-bottom.jpg) no-repeat left top; padding: 0px; margin: 0px; font-size: 0px; overflow: hidden;}
+#FeatureTopicContent {width: 328px; border-right: 1px solid #5554a0; border-left: 1px solid #5554a0; background: #e6e6f1; padding-left: 15px; padding-right: 15px; margin: 0px; overflow: hidden;}
+#FeatureTopic h1 {font-size: 14px; padding-top: 2px; padding-bottom: 10px; margin: 0px;}
+#FeatureTopic h1 a {color: #5554a0; text-decoration: underline;}
+#FeatureTopic h1 a:hover {color: #5554a0; text-decoration: none;}
+#FeatureTopic p {color: #000000; margin-bottom: 10px;}
+
+/* Page Set-up */
+body {margin: 3px 0px 0px; padding: 0px; background-color: #ffffff; font-size: 13px; font-family: Arial, Helvetica, sans-serif; color: #453f3b; line-height: 17px;}
+#Container {width: 960px;  margin-right: auto;	margin-left: auto;	margin-top: 2px;}
+#SubTable {width: 960px; border-right: 1px solid #e31a3a; border-left: 1px solid #e31a3a; clear: both; padding-bottom: 15px;}
+td {text-align: left; vertical-align: top;}
+hr {width: 95%; color: #a0997d; background: #a0997d; height: 1px; text-align: center; border: 0px; margin-top: 3px; margin-bottom: 3px;}
+.SkipNav {display: none;}
+	
+/* Tag styles */
+a {text-decoration: underline; color: #333333}
+a:hover {text-decoration: none; color: #333333}
+h1 {font-size: 17px; font-weight: bold;	color: #5554a0; margin-top: 0px;}
+h1 a {font-weight: bold; color: #5554a0; margin-top: 0px; text-decoration: none;}
+h2 {font-size: 14px; font-weight: bold; margin-bottom: 5px; color: #453f3b;}
+h2 a {font-weight: bold; margin: 0px; color: #453f3b; text-decoration: none;}
+h3 {font-size: 13px; font-weight: bold;	margin-bottom: 0px;}
+h3 a {font-weight: bold; margin: 0px; text-decoration: none;}
+h4 {font-size: 13px; font-style: italic; margin: 0px;}
+h4 a {font-style: italic; margin: 0px; text-decoration: none;}
+
+
+/* Header */
+#Header {width: 960px;  height: 90px; margin: 0px; padding: 0px;}
+#HeaderLeft {width: 300px; height: 20px; float: left;}
+#HeaderRightTop {display: none;}
+#HeaderLogo {background: url(/mportal/images/logos/arbor.jpg) no-repeat top; width: 184px; height: 70px; padding-left: 10px; border: 0px;}
+#TextSizer {display: none;}
+#HeaderRightBottom {display: none;}
+
+/* Primary Navigation */
+#Menu {display: none;}
+
+/* Content Styles */
+#ContentContainer {width: 750px; padding: 10px 15px 15px 7px; margin: 0px;}
+#ContentContainerCornerLeft {display: none;}
+#ContentContainerCornerRight {display: none;}
+#Content {width: 750px; padding: 0px; margin: 0px; clear: right;}
+#Content ul {list-style: none; margin-left: 1px; padding: 0px; margin-top: 5px; }
+#Content ul li {padding-left: 12px; margin-top: 3px; list-style: square outside;}
+#Content ul ul {list-style: none; margin-left: 1px; padding: 0px; margin-top: 0px;}
+#Content ul ul li {padding-left: 12px; margin-top: 0px; list-style: disc outside;}
+#Content ol {list-style: decimal ; margin-left: 35px; margin-top: 5px; margin-bottom: 10px;}
+#Content ol li {padding-left: 0px; margin-bottom: 5px;}
+#Content ol ol {list-style: lower-roman; margin-left: 35px; margin-top: 1px;}
+#Content ol ol li {padding-left: 0px;}
+#Content ol ul {list-style: none; margin-left: 1px; padding: 0px; margin-top: 3px; }
+#Content ol ul li {list-style: disc outside; padding-left: 12px; margin-top: 3px;}
+#Content p {margin-top: 0px;}
+#ContentFullPage {width: 750px; padding: 0px; margin: 0px; clear: right;}
+#ContentFullPage ul {list-style: none; margin-left: 1px; padding: 0px; margin-top: 5px; }
+#ContentFullPage ul li {list-style: square outside; padding-left: 0px; margin-top: 3px; margin-left: 14px;}
+#ContentFullPage ul ul {list-style: none; margin-left: 1px; padding: 0px; margin-top: 0px;}
+#ContentFullPage ul ul li {list-style: disc outside; padding-left: 0px; margin-top: 0px;margin-left: 14px;}
+#ContentFullPage ol {list-style: decimal ; margin-left: 35px; margin-top: 5px; margin-bottom: 10px;}
+#ContentFullPage ol li {padding-left: 0px; margin-bottom: 5px;}
+#ContentFullPage ol ol {list-style: lower-roman; margin-left: 35px; margin-top: 1px;}
+#ContentFullPage ol ol li {padding-left: 0px;}
+#ContentFullPage ol ul {list-style: none; margin-left: 1px; padding: 0px; margin-top: 3px; }
+#ContentFullPage ol ul li {list-style: disc outside; padding-left: 12px; margin-top: 3px;}
+#ContentFullPage p {margin-top: 0px;}
+
+/* Login Styles */
+#LoginImage {float: left; width: 230px; height: 252px; background: url(/mportal/images/login/mom-baby.jpg) no-repeat;}
+#Login {float: left;  width: 324px; clear: left; padding: 0px; margin: 0px;}
+#LoginTop {height: 10px; width: 324px; background: url(/mportal/images/login/login-top.jpg) no-repeat top left; padding: 0px; margin: 0px; font-size: 0px;}
+#LoginBottom {background: url(/mportal/images/login/login-bottom.jpg) no-repeat left top; height: 21px; width: 325px; padding: 0px; margin: 0px; font-size: 0px;}
+#LoginShadow {width: 322px; border-right: 1px solid #434389; padding: 0px; margin: 0px 0px 0px 1px; background: #e6e6f1 url(/mportal/images/login/login-left.jpg) repeat-y left top;
+}
+#LoginShadow h1 {font-size: 18px;  font-weight: normal; text-indent: 20px; padding-top: 5px; padding-bottom: 16px; margin: 0px;}
+#LoginShadow .Login {width: 220px; float: right; background:url(/mportal/images/login/login-bg.jpg) no-repeat left top; vertical-align: top; }	
+#LoginShadow .Login .LoginBox {width: 166px; height: 20px; background: none; margin: 2px 0px 0px 7px; padding-bottom: 15px; border: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #453f3b;}	
+#LoginShadow .LoginBox input {padding: 0px; margin: 0px;}
+#LoginShadow #EmailLabel {float: left; font-size: 14px; color: #434389; font-weight: bold; margin-top: 2px; margin-bottom: 14px; margin-left: 55px; margin-right: 5px;}
+#LoginShadow #PasswordLabel {float: left; font-size: 14px; color: #434389; font-weight: bold; margin-top: 7px; margin-left: 28px; margin-right: 5px;}
+#LoginShadow .LoginButton {width: 84px; height: 24px; background: url(/mportal/images/login/button.jpg) no-repeat center center; border: 0px none;  margin-left: 98px;}
+#LoginShadow .LoginButtonOver {width: 84px; height: 24px; background: url(/mportal/images/login/button-over.jpg) no-repeat center center; border: 0px none; margin-left: 98px;}
+#LoginShadow #PasswordReset {font-size: 14px; color: #434389; margin-top: 5px; margin-left: 101px;}
+#LoginShadow #PasswordReset a {color: #434389;}
+.LoginError {color: #b00829; font-size: 12px; font-weight: bold; display: block; margin: 0px 10px 0px 20px; padding: 0px 0px 10px;}	
+#TourLogoContainer {padding-top: 15px; padding-bottom: 15px; clear: both;}
+#Tour {float: left; width: 250px; padding-top: 12px; padding-bottom: 10px; padding-left: 5px;}
+#Tour a {color: #434389; font-size: 14px; font-weight: bold; text-decoration: underline;}
+#Tour a:hover {text-decoration: none;}
+#AMFCLogo {float: right; width: 380px; padding-top: 12px; padding-bottom: 10px; padding-right: 5px; text-align: right;}
+
+/* Registration Style */
+#Register {float: right;  width: 324px; height: 198px; clear: right;}
+#RegisterTop {height: 10px; width: 324px; background: url(/mportal/images/register/register-top.jpg) no-repeat top left; padding: 0px; font-size: 0px;}
+#RegisterBottom {background: url(/mportal/images/register/register-bottom.jpg) no-repeat left top; height: 21px; width: 325px; padding: 0px; margin: 0px; font-size: 0px;}
+#RegisterShadow {width: 323px; height: 167px; border-right: 1px solid #ffd74b; padding: 0px; background: #f9eee7 url(/mportal/images/register/register-left.jpg) repeat-y left top;}
+#RegisterShadow .RegisterButton {width: 84px; height: 24px; background: url(/mportal/images/register/button.jpg) no-repeat center center; border: 0px none; margin-top: 15px; margin-left: 125px;}
+#RegisterShadow .RegisterButtonOver {width: 84px; height: 24px; background: url(/mportal/images/register/button-over.jpg) no-repeat center center; border: 0px none; margin-top: 15px; margin-left: 125px;}
+#RegisterShadow h1 {font-size: 18px; color: #c95617; font-weight: normal; text-indent: 20px; padding-top: 5px; margin-bottom: 15px;}
+#RegisterShadow ul {list-style: none; margin-left: 0px; padding: 0px; margin-top: 5px;}
+#RegisterShadow li {font-size: 14px; color: #c95617; list-style: square outside; padding-left: 0px; margin-top: 3px; margin-left: 36px; margin-bottom: 0px;}
+.RegisterFloatLeft {float: left;}
+.RegisterFloatRight {float: right;}
+#RegisterBirthMonth {float:left; margin-top:0px; margin-left:13px; color:#666666}
+#RegisterBirthDay {float:left; margin-top:0px; margin-left:38px; color:#666666}
+#RegisterBirthYear {float:left; margin-top:0px; margin-left:46px; color:#666666}
+.DottedLine {border-bottom: dotted 1px #000;}
+
+/* Left Navigation */	
+#LeftNavContainer {display: none;}
+
+
+/* Personal Information */	
+#PersonalInfo {display: none;}
+
+/* Registraton Form Styles */
+.TableRegistration {width: 355px; padding: 0px; margin-right: 25px;}
+.ORText {margin-left: 1px; line-height: 25px;}
+
+/* Footer */
+#Footer {display: none; clear: both;}
+#Legal {width: 960px; font-size: 11px; color: #453f3b; margin: 0px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; clear: both;}
+#Legal a {color: #453f3b;}
+
+/* Text Styles */
+.TextAlignCenter {text-align: center; margin: 0px; }
+.TextAlignRight {text-align: right; margin: 0px;}
+.TextVerticalCenter {vertical-align: middle;}
+.Comment {font-size: 12px; color: #666666;}
+.Comment a {font-size: 12px; color: #666666; text-decoration: underline;}
+.Comment a:hover {font-size: 12px; color: #666666; text-decoration: none;}
+
+/* Images */
+.HeaderLogo {padding-left: 10px; border: 0px;}
+.ImageNoBorder {border: 0px; margin: 0px; padding: 0px;}
+.ImageVertCenter {border: 0px; vertical-align: middle;}
+.ImageLeft {float: left; border: 0px; margin: 0px; padding-right: 5px; padding-bottom: 5px;}
+.ImageRight {float: right; border: 0px; margin: 0px; padding-left: 5px; padding-bottom: 5px;}
+.ArrowButton {border: 0px; vertical-align: middle;}
+
+/*Table Styles*/
+.TableGeneral {width: 100%; padding: 2px; }
+.TableCenter {padding: 2px; text-align: center; }
+.TablePadding {width: 515px; padding: 5px;}
+.TableFullPage {width: 740px; padding: 2px;}
+.TableColumn250pixels {width: 250px;}
+.TableColumn200pixels {width: 200px;}
+.TableColumn150pixels {width: 150px;}
+.TableColumn125pixels {width: 125px;}
+.TableColumn100pixels {width: 100px;}
+.PaddingBottom {padding-bottom: 10px;}
+.PaddingBottomIcon {padding-bottom: 10px; width: 25px;}
+
+/* Alignment */
+.FloatLeft { float: left; border: 0px;}
+.FloatRight { float: right; border: 0px;}
+
+/* Grid View Styles */
+.GridView {background: #ECEBE6; border-bottom: 1px solid #6665a9; border-left: 1px solid #6665a9; border-right: 1px solid #6665a9; width: 100%;}
+.GridView th {background: #6665a9; padding: 5px; color: #ffffff; font-weight: bold; border: 1px solid #6665a9;}
+.GridViewHeader {background: #6665a9; padding: 5px; color: #ffffff; font-weight: bold; border: 1px solid #6665a9;}
+.GridView td {border: 1px solid #6665a9; padding: 5px; font-size: 12px;}
+.GridViewNoData {background: #f2f2f2; border-bottom: 1px solid #6665a9; border-left: 1px solid #6665a9; border-right: 1px solid #6665a9; width: 100%;}
+.GridViewNoData th {background: #6665a9; padding: 5px; color: #ffffff; font-weight: bold; border: 1px solid #6665a9;}
+.GridViewNoData td {border: 1px solid #6665a9; padding: 5px; font-size: 12px;}
+
+/* Button styles */
+.Button75px {width: 75px; height: 27px; background: url(/mportal/images/button/button75px.jpg) no-repeat center center; border: 0px none; font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: #434389;}
+.Button75pxOver {width: 75px; height: 27px; background: url(/mportal/images/button/button75px-over.jpg) no-repeat center center; border: 0px none; font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: #827e63;}
+.Button125px {width: 125px; height: 26px; background: url(/mportal/images/button/button125px.jpg) no-repeat center center; border: 0px none; font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: #434389;}
+.Button125pxOver {width: 125px; height: 26px; background: url(/mportal/images/button/button125px-over.jpg) no-repeat center center; border: 0px none; font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: #827e63;}
+.Button175px {width: 175px; height: 27px; background: url(/mportal/images/button/button175px.jpg) no-repeat center center; border: 0px none; font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: #434389;}
+.Button175pxOver {width: 175px; height: 27px; background: url(/mportal/images/button/button175px-over.jpg) no-repeat center center; border: 0px none; font-family: Arial, Helvetica, sans-serif; font-weight: bold; color: #827e63;}
+
+/* Form styles */
+form {margin: 0px; padding: 0px;}
+select {font-size: 14px; margin-top: 4px; margin-bottom: 4px; padding: 2px; vertical-align: middle;}
+input { margin-top: 4px; margin-bottom: 4px; padding-left: 2px; padding-right: 2px; vertical-align: middle;}
+label {vertical-align: middle; font-weight: bold; color: #434389;}
+.Label {vertical-align: middle; font-weight: bold; color: #434389;}
+.FormTextRequired {color: #b00829;}
+.Error {color: #b00829; font-size: 12px; font-weight: bold; display: block;margin: 0px;}
+.Field25pixels {width: 25px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000; background: #F3F7FC; border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.Field50pixels {width: 50px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000; background-color: #F3F7FC; border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.Field100pixels {width: 100px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000; background-color: #F3F7FC; border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.Field175pixels {width: 175px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000; background-color: #F3F7FC;  border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.Field225pixels {width: 225px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000; background-color: #F3F7FC;  border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.Field300pixels {width: 300px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000; border: 1px groove #cccccc; background: #F3F7FC; padding: 2px; margin: 0px;}
+.Field350pixels {width: 350px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000; border: 1px groove #cccccc; background: #F3F7FC; padding: 2px; margin: 0px;}
+.Textarea {width: 95%; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000; background: #F3F7FC; border: 1px groove #cccccc; padding: 2px; margin: 0px;}
+.RadioButtonList {width: 100%; padding: 0px; margin: 0px;}
+.RadioButtonList td {text-align: left; padding-left: 0px; margin-left: 0px;}
+
+/*Form Fields Required*/
+.Field25pixelsRequired {width: 25px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.Field50pixelsRequired {width: 50px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; border: 1px groove #cccccc; background: #FEE1E0; padding: 2px; margin: 0px;}
+.Field100pixelsRequired {width: 100px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.Field175pixelsRequired {width: 175px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.Field225pixelsRequired {width: 225px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.Field300pixelsRequired {width: 300px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.Field350pixelsRequired {width: 350px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.TextareaRequired {width: 95%; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000; border: 1px groove #cccccc; background: #fdd8d6; padding: 2px; margin: 0px;}
+.RadioButtonListRequired {width: 100%; padding: 0px; margin: 0px; background: #fdd8d6;}
+.RadioButtonListRequired td {text-align: left; padding-left: 0px; margin-left: 0px;}
+
+/*Form Fields Disabled*/
+.ButtonDisabled {background-color: #F7F7F7; color: #D7D7D7;}
+.Field25pixelsDisabled {width: 25px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field50pixelsDisabled {width: 50px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field100pixelsDisabled {width: 100px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field175pixelsDisabled {width: 175px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field225pixelsDisabled {width: 225px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field300pixelsDisabled {width: 300px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000;  border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.Field350pixelsDisabled {width: 350px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000;  border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.TextareaDisabled {width: 75%; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #000000; border: 1px groove #cccccc; background: #CACACA; padding: 2px; margin: 0px;}
+.RadioButtonListDisable {width: 100%; padding: 0px; margin: 0px; background: #CACACA;}
+.RadioButtonListDisable td {text-align: left; padding-left: 0px; margin-left: 0px;}
+
+/* Error Page */
+.ErrorPageHeaderText{font-size: 25px; font-weight: bold; color: #000000; margin-top: 0px;}
+
+/* Member Id Card */
+#IdCardConfirmation{font-size: 12px; color: #666666;}
+
+/* UtilityArea - Includes Text Sizer and Social Bookmarks */	
+#UtilityArea {display: none;}
+
+/* Streaming Video - Popup 	*/
+#VideoPopBody {background-color: #f2f2f2;}
+#VideoPop {padding: 10px; font-size: 13px; clear: both;}
+#VideoPop h2 { font-size: 14px;	font-weight: bold;	margin: 0px; color: #e31a3a;}
+#VideoPopHeader {padding-left: 10px; padding-top: 10px; float: left; clear: both;}
+#UtilityHeader {float: right; padding-top: 10px; clear: both;}
+.TableVideo {width: 515px; padding: 4px; border: 1px solid #cccccc; background: #eeeeee;}
+.TableVideo h2 {margin: 0px; padding: 0px; text-decoration: none;}
+.TableVideo h2 a {text-decoration: none;}
+.TableVideo h2:hover {color: #666666; text-decoration: none;}
+
+/* RSS Feed */
+.Rss {display: none;}

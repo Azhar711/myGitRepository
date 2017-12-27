@@ -1,0 +1,125 @@
+﻿
+
+
+
+@{string img_path = System.Configuration.ConfigurationManager.AppSettings["img_path"];}
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .Vseparator{
+        border-left:medium #F9856E solid;
+        height:250px; 
+        margin-left: 455px;
+        margin-top: -105px;
+        }
+        .l{
+            margin-left: -100px;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width" />
+    <title>Log in - Member Portal</title>
+
+    <link rel="stylesheet" type="text/css" media="print" href="@img_path/css/print.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="@img_path/css/common.css" />
+    @*<link rel="stylesheet" type="text/css" media="screen" id="commonCss" />*@
+    <link rel="stylesheet" type="text/css" media="screen" href="@img_path/css/responsive.css" />
+    
+    @*<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />*@
+    @*<script>
+    $(document).ready(function () {
+        var date_input = $('input[name="date"]'); //our date input has the name "date"
+        var container = $('.bootstrap-iso form').length > 0 ? $('.bootstrap-iso form').parent() : "body";
+        var options = {
+            format: 'mm/dd/yyyy',
+            container: container,
+            todayHighlight: true,
+            autoclose: true,
+        };
+        date_input.datepicker(options);
+    })
+    </script>
+    <script type="text/javascript">
+    $(".form_datetime").datetimepicker({
+        format: "dd MM yyyy - hh:ii",
+        autoclose: true,
+        todayBtn: true,
+        pickerPosition: "bottom-left"
+    });
+    </script>*@            
+
+    @*<script src="~/mportal/js/equal-heights.js"></script>
+    <script src="~/mportal/js/mobilemenu.js"></script>
+    <script src="~/mportal/js/jquery.cookie.js"></script>
+    <script src="~/mportal/js/toggle.js"></script>
+    <script src="~/mportal/js/utilities.js"></script>*@
+</head>
+<body>
+    <header>
+
+        <div id=Header sizcache06426019968341459="16.0.2" sizset="false">
+            <div id=HeaderLeft sizcache06426019968341459="16.0.2" sizset="false"><a href="/memberportal/apps/userauth/log-in.aspx"><img id=HeaderLogo alt="Health Plan" src="@img_path/images/logos/logo-transparent.gif" width=184 height=70></a> </div>
+            <div id=HeaderRightTop sizcache06426019968341459="16.0.3" sizset="false">
+                <div id=TextSizer sizcache06426019968341459="16.0.3" sizset="false">
+                    <div id=UtilityArea sizcache06426019968341459="16.0.3" sizset="false">
+                        <span class=SizerLink style="DISPLAY: inline">Text size:&nbsp;</span>
+                        @*<a onmouseover="movepic('normal','/mportal/images/common/a-13px-over.gif')" onfocus="movepic('normal','/mportal/images/common/a-13px-over.gif')" onmouseout="movepic('normal','/mportal/images/common/a-13px.gif')" onblur="movepic('normal','/mportal/images/common/a-13px.gif')" id=default class=SizerLink style="DISPLAY: inline" href="/memberportal/apps/style-switch/index.aspx?style=default">*@
+                        <img class=ImageNoBorder name=normal alt="Default Text Size" src="@img_path/images/common/a-13px.gif">@*</a>*@
+                        @*<a onmouseover="movepic('medium','/mportal/images/common/a-14px-over.gif')" onfocus="movepic('medium','/mportal/images/common/a-14px-over.gif')" onmouseout="movepic('medium','/mportal/images/common/a-14px.gif')" onblur="movepic('medium','/mportal/images/common/a-14px.gif')" id=medium class=SizerLink style="DISPLAY: inline" href="/memberportal/apps/style-switch/index.aspx?style=medium">*@
+                        <img class=ImageNoBorder name=medium alt="Medium Text Size" src="@img_path/images/common/a-14px.gif"> @*</a>*@
+                        @*<a onmouseover="movepic('large','/mportal/images/common/a-15px-over.gif')" onfocus="movepic('large','/mportal/images/common/a-15px-over.gif')" onmouseout="movepic('large','/mportal/images/common/a-15px.gif')" onblur="movepic('large','/mportal/images/common/a-15px.gif')" id=large class=SizerLink style="DISPLAY: inline" href="/memberportal/apps/style-switch/index.aspx?style=large">*@
+                        <img class=ImageNoBorder name=large alt="Large Text Size" src="@img_path/images/common/a-15px.gif">@*</a>*@ &nbsp;&nbsp;&nbsp;
+                        @*<a onmouseover="movepic('print','/mportal/images/icons/print-over.jpg')" onfocus="movepic('print','/mportal/images/icons/print-over.jpg')" onmouseout="movepic('print','/mportal/images/icons/print.jpg')" onblur="movepic('print','/mportal/images/icons/print.jpg')" href="Javascript:window.print()">*@
+                        Print <img class=ImageVertCenter name=print alt="Print Page" src="@img_path/images/icons/print.jpg">@*</a>*@
+                    </div>
+                </div>
+            </div>
+            <div id=HeaderRightBottom sizcache06426019968341459="16.0.7" sizset="false">
+                <div id=TopNavCorner></div>
+                <div id=TopNav sizcache06426019968341459="16.0.7" sizset="false">
+                    <ul sizcache06426019968341459="16.0.7" sizset="false">
+                        <li sizcache06426019968341459="16.0.7" sizset="false"><a href="/memberportal/apps/userauth/log-in.aspx">Log in</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id=Menu>
+            <div id=MenuLeft></div>
+            <div id=MenuRight></div>
+        </div>
+    </header>
+    
+        @RenderBody()
+        <footer>
+
+            <div id=Footer sizcache007830046115357475="16.0.10" sizset="false">
+                <div id=FooterLeftTop></div>
+                <div id=FooterRightTop></div>
+                <div id=FooterLeftBottom></div>
+                <div id=FooterRightBottom sizcache007830046115357475="16.0.10" sizset="false">
+                    <ul sizcache007830046115357475="16.0.10" sizset="false">
+                        <li sizcache007830046115357475="16.0.10" sizset="false"><a href="/pdf/member/non-discrimination-notice.pdf" target=_blank>Non-Discrimination Notice</a> (PDF)
+                        <li>|
+                        <li sizcache007830046115357475="16.0.11" sizset="false"><a href="/pdf/member/multi-language-insert.pdf" target=_blank>Help in other languages</a> (PDF)
+                        <li>|
+                        <li sizcache007830046115357475="16.0.12" sizset="false"><a href="/pdf/member/alliance/notice-of-privacy-practices-alliance.pdf" target=_blank>Alliance Notice of Privacy Practices</a>
+                        <li>|
+                        <li sizcache007830046115357475="16.0.13" sizset="false"><a href="/pdf/member/medicaid/notice-of-privacy-practices-medicaid.pdf" target=_blank>Medicaid Notice of Privacy Practices</a>
+                        <li sizcache007830046115357475="16.0.14" sizset="false"><a href="/memberportal/global/content/privacy-practices.aspx"></a>|
+                        <li sizcache007830046115357475="16.0.15" sizset="false"><a href="/memberportal/global/content/privacy.aspx">Privacy Policy</a>
+                        <li>|
+                        <li sizcache007830046115357475="16.0.16" sizset="false"><a href="/memberportal/global/content/terms-of-use.aspx">Terms of Use</a>
+                        <li>|
+                        <li sizcache007830046115357475="16.0.17" sizset="false"><a href="http://qa.amerihealthcaritasdc.com" target=_blank>AmerihealthCaritasDC.com</a> </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id=Legal sizcache007830046115357475="16.0.18" sizset="false">This site contains links to other Internet sites. AmeriHealth Caritas District of Columbia is not responsible for the content of other Internet sites. Please see our <a href="/memberportal/global/content/privacy.aspx">Privacy Policy</a> and <a href="/memberportal/global/content/terms-of-use.aspx">Terms of Use</a>.<br>© <span id=CurrentYear>2017</span> <a href="http://qa.amerihealthcaritasdc.com" target=_blank>AmeriHealth Caritas DC</a>. All rights reserved.</div>
+        </footer>
+    
+    
+</body>
+</html>

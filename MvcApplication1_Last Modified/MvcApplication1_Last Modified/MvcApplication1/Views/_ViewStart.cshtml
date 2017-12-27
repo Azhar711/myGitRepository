@@ -1,0 +1,12 @@
+﻿@if (Request.Url.AbsoluteUri == "http://localhost:50666/member")
+{
+    Layout = "~/Views/Shared/_Common.cshtml";
+}
+else if (Request.Url.AbsoluteUri == "http://10.0.23.194/site2")
+{
+    Layout = "~/Views/Shared/_PAView.cshtml";
+}
+else
+{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}

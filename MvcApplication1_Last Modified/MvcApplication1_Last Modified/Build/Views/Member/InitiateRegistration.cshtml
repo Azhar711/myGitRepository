@@ -1,0 +1,182 @@
+﻿@model MvcApplication1.ViewModels.RegisterViewModel
+@{
+    ViewBag.Title = "InitiateRegistration";
+    Layout = "~/Views/Shared/_Common.cshtml";
+}
+
+@{string img_path = System.Configuration.ConfigurationManager.AppSettings["img_path"];}
+
+
+<form method="post">
+    <table id="ContentContainer" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>
+                    <div id="ContentFullPage">
+
+                        <h1>
+                            Registration: Step 1 of 3
+                        </h1>
+                        <p>
+                            You do not have to register for this site. It is offered to you as a tool to help
+                            you get information. It is not required. You can still call
+                            <span id="ContentPlaceHolder1_lblPlan1">AmeriHealth Caritas DC</span>
+                            at
+                            <span id="ContentPlaceHolder1_lblPhone1">1-800-408-7511</span>
+                            for any questions.
+                        </p>
+                        <p>
+                            Register, complete, and submit the information on the next screens. Once you have
+                            access to the
+                            <span id="ContentPlaceHolder1_lblPlan2">AmeriHealth Caritas DC</span>
+                            member portal, you can review your private health care information about:
+                        </p><ul>
+                            <li>Your health care providers.</li>
+                            <li>Health services that you have received.</li>
+                            <li>Prescription drugs that you take.</li>
+                        </ul>
+                        Access to your private information through the
+                        <span id="ContentPlaceHolder1_lblPlan3">AmeriHealth Caritas DC</span>
+                        member portal is meant only for you. All members must sign up separately to get
+                        their own information.<p></p>
+                        <a href="/memberportal/global/content/privacy.aspx">Information about privacy</a>
+                        <br>
+                        <br>
+
+                        <p>
+                            (<span class="FormTextRequired"> * </span>) Indicates required fields.
+                        </p>
+                        <h2>
+                            Enter your personal information
+                        </h2>
+                        <p>
+                            Fill out the fields below to begin the registration process.
+                        </p>
+                        <span id="ContentPlaceHolder1_lblEmail" class="Error"></span>
+                        <div class="FloatLeft">
+                            <div class="scrollable">
+                                <div>
+                                    <table cellpadding="0" cellspacing="0" border="0" class="TableRegistration">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    @Html.ValidationSummary(true)
+
+                                                    @Html.Label("Memberid")
+                                                    <span class="FormTextRequired">*</span>
+
+                                                    <br>
+                                                    @Html.TextBox("Memberid")
+                                                    <br>
+                                                    <span style="color:red">
+                                                        @Html.ValidationMessage("Memberid")
+                                                    </span>
+                                                    <br />
+
+                                                    @Html.Label("FirstName") <span class="FormTextRequired">*</span>
+
+                                                    <br>
+                                                    @Html.TextBox("FirstName")<br />
+                                                    <span style="color:red">
+                                                        @Html.ValidationMessage("FirstName")
+                                                    </span>
+                                                    <br>
+                                                    @Html.Label("LastName") <span class="FormTextRequired">*</span>
+                                                    <br>
+
+                                                    @Html.TextBox("LastName")<br />
+                                                    <span style="color:red">
+                                                        @Html.ValidationMessage("LastName")
+                                                    </span>
+                                                    <br>
+                                                    @Html.Label("DOB") <span class="FormTextRequired">*</span>
+
+                                                    <br>
+                                                    @Html.TextBoxFor(x=>x.DOB, new { @class="form-control" , id="date" , name="date" , placeholder="MM/DD/YYY"})<br />
+                                                    <span style="color:red">
+                                                        @Html.ValidationMessage("DOB")
+                                                    </span>
+                                                    <br />
+                                                    @Html.Label("Email") <span class="FormTextRequired">*</span>
+                                                    <br>
+                                                    @Html.TextBox("Email")<br />
+                                                    <span style="color:red">
+                                                        @Html.ValidationMessage("Email")
+                                                    </span>
+                                                    <br>
+                                                    @Html.Label("CEmail") <span class="FormTextRequired">*</span>
+                                                    <br>
+                                                    @Html.TextBox("CEmail")<br />
+                                                    <span style="color:red">
+                                                        @Html.ValidationMessage("CEmail")
+                                                    </span>
+                                                    <br>
+                                                    
+                                                    @Html.Label("Phone") <span class="FormTextRequired">*</span>
+                                                    <br>
+                                                    @Html.TextBox("Phone")<br />
+                                                    <span style="color:red">
+                                                        @Html.ValidationMessage("Phone")
+                                                    </span>
+                                                    <br>
+                                                    @Html.CheckBoxFor(x=>x.checkagree) <span class="FormTextRequired">*</span>
+                                                    @Html.Label("checkagree") <br />
+                                                    <span style="color:red">
+                                                        @Html.ValidationMessage("checkagree")
+                                                    </span>
+                                                    <span class="FormTextRequired">
+                                                        You will need to log in to your email to verify the email
+                                                        address you gave above. Then you can create a password. Follow the instructions
+                                                        in the email you received to complete your registration process.
+                                                    </span><br>
+                                                    <br>
+                                                    <input type="submit" value="Submit" class="Button175px" />
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="FloatRight">
+                            <ul>
+                                <li>
+                                    <strong>
+                                        Member ID<br>
+                                    </strong>Your Member ID number is located on your ID card. Please refer to the image
+                                    below for<br>
+                                    help.
+                                </li>
+                                <li>
+                                    <strong>
+                                        First name<br>
+                                    </strong>Please enter your first name as it appears on your Member ID card. <strong>
+                                        Please leave out<br>
+                                        any middle initials or middle names.
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong>
+                                        Last name<br>
+                                    </strong>Please enter your last name as it appears on your Member ID card. <strong>
+                                        Please
+                                        leave out<br>
+                                        any middle initials or middle names.
+                                    </strong>
+                                </li>
+                                <li>
+                                    <strong>Email address</strong><br>
+                                    Your email address will be used as your user name when accessing the Member<br>
+                                    Portal. Your email address is case sensitive.
+                                </li>
+                            </ul>
+                            <img src="@img_path/images/register/member-id-card.jpg" width="320" height="200" alt="Sample Member ID Card">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</form>

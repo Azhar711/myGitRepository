@@ -1,0 +1,59 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head runat="server">
+    <asp:Literal ID="litMeta" />
+    <asp:ContentPlaceHolder ID="head">
+    </asp:ContentPlaceHolder>
+    <!-- Set blank invisible title to avoid duplicate titles on page -->
+    <title id="Title1" ></title>
+</head>
+<body>
+    <a href="#content" class="SkipNav" tabindex="1" accesskey="1" title="Skip to Main content">Skip to Main content</a>
+    <form id="form1" r autocomplete="off">
+        <div id="Container">
+            <uc2:header ID="header1"  />
+            <!-- Begin Menu -->
+            <div id="Menu">
+                <div id="MenuLeft">
+                </div>
+                <div id="MenuRight">
+                    <ul>
+                        <asp:Literal ID="litMenu" runat="server" />
+                        <li id="liMessageCtr" runat="server">
+                            <a href="/memberportal/apps/msg-center/index.aspx">
+                                Message Center
+                            </a> <span class="TopNavComment">
+                                <asp:Label ID="lblMsgs" runat="server"></asp:Label>
+                            </span>
+                        </li>
+                        <li><a href="/memberportal/apps/acct-settings/index.aspx">Account Settings</a></li>
+                        <li><a href="/memberportal/global/content/contact/index.aspx">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Menu -->
+            <div id="ContentContainerCornerLeft">
+            </div>
+            <div id="ContentContainerCornerRight">
+            </div>
+            <table id="ContentContainer" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <div id="LeftNavContainer">
+                            <uc3:quick ID="quick1" runat="server" />
+                            <uc1:personal ID="personal1" runat="server" />
+                        </div>
+                        <div id="Content">
+                            <div>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <asp:Literal ID="litFooter" runat="server" />
+        </div>
+    </form>
+</body>
+</html>
